@@ -6,6 +6,61 @@
 
 ## Business Goals
 
+1. To increase the bookings of the spa treatments and spa facilites at the Dovenity Spa.
+2. To highlight the treatments, facilities and the services available at the Dovenity Spa.
+3. To give the public information on how to book at the Dovenity Spa.
+4. To give contact details of the Dovenity Spa.
+5. Increase online awareness of Dovenity Spa through Search Engine Optimizarion.
+6. To make bookings available online through a form as well as a phone option to call reception.
+
+## User Stories:
+
+Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible user stories could include:
+
+1. User Story #1
+
+   I would like details about all the treatments so that I could make a decision which one I would like, if any.
+
+2. User Story #2
+
+   I would like to know about all Dovenity Spa facilities such as the stream room so that I would know which facilities that I could choose from.
+
+3. User Story #3
+
+   I would like to be able to book the Dovenity Spa online so that so that I don't have to go in person to the store or call to make a booking.
+
+4. User Story #4
+
+   I would like to know about testimonials to know if treatment or facilities are good.
+
+5. User Story #5
+
+   I would like to know the opening hours of the Dovenity Spa to book within that time.
+
+6. User Story #6
+
+   I would like to know the rating of the spa.
+
+7. User Story #7
+
+   I would like to join their social media membership to know about sales and upcoming specials.
+
+8. User Story #8
+
+   I would like to know their pricing for all services.
+
+9. User Story #9
+
+   I would like to know the training level the staff has had.
+
+10. User Story #10
+
+    I would like to know the availability of and the pricing information of parking at the Dovenity Spa.
+
+11. User Story #11
+
+    I would like to know the location of the Dovenity Spa to check if it is feasible for me to book a treament for myself.
+
 ## Links used:
 
 ## Media Used:
@@ -17,6 +72,9 @@
 ### Fixed:
 
 ## Wireframes:
+
+Home Page
+![Home Page Wireframe](assets/wireframes/homepage-wireframe.png)
 
 ## Deployment:
 
