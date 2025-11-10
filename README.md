@@ -51,7 +51,7 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 9. User Story #9
 
-   I would like to know the training level the staff has had.
+   I would like to know the training level of all the staff has had.
 
 10. User Story #10
 
