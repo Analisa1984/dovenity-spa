@@ -1,13 +1,38 @@
 /* Global Styles */
-  root: {
-    --primary-font: "Quicksand", sans-serif;
-    --secondary-font: "Caveat", sans-serif;
+:root {
+  --primary-font: "Quicksand", sans-serif;
+  --secondary-font: "Caveat", sans-serif;
+}
 
-    /*
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-size-base: 16px;
-    --line-height-base: 1.5; */
-  }
+body {
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 600;
+}
 
+/* Navbar Styles */
+.navbar {
+  background: #eab676;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.active {
+  border-bottom: 5px solid rgb(102, 68, 18);
+}
+
+/* Welcome Paragraph Styles */
+header h1 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+#welcome {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  text-align: justify;
+  margin: 40px;
+  line-height: 2em;
+}
