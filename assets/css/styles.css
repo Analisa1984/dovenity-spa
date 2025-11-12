@@ -8,11 +8,17 @@ body {
   font-family: var(--secondary-font);
   font-size: 28px;
   font-weight: 600;
+  background-image: url(../images/spa-pics/serene-sky.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Navbar Styles */
 .navbar {
-  background: #eab676;
+  background: rgb(218, 169, 45);
+  height: 100px;
 }
 
 .navbar a {
@@ -27,12 +33,66 @@ header h1 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 50px;
-  font-size: 50px;
+  font-size: 38px;
 }
 #welcome {
   font-family: var(--primary-font);
   font-size: 20px;
+  font-weight: 300;
   text-align: justify;
   margin: 40px;
   line-height: 2em;
+}
+
+/* form styles */
+form {
+  border: 8px solid rgb(144, 104, 5);
+  width: 450px;
+  margin: 10px auto;
+}
+
+legend {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* footer styles */
+footer {
+  background: rgb(144, 104, 5);
+  font-size: 35px;
+  width: 100%;
+}
+
+footer img {
+  height: 300px;
+  padding-top: 40px;
+  width: 300px;
+}
+
+footer h3 {
+  color: #e4c241;
+  padding-top: 35px;
+}
+
+footer .social-media {
+  font-size: 50px;
+}
+
+footer a {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+footer table {
+  color: #e4c241;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  text-decoration: underline 10px;
+  margin-bottom: 0;
+  color: #e4c241;
 }
