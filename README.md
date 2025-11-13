@@ -73,8 +73,11 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 ## Wireframes:
 
-Home Page for mobiles, tablets and PC:
-![Home Page Wireframe](assets/wireframes/homepage-wireframe.png)
+1. Home Page for mobiles, tablets and PC:
+   ![Home Page Wireframe](assets/wireframes/homepage-wireframe.png)
+
+2. Spa Treatments Page for mobiles, tablets and PC:
+   ![Spa Treatments Wireframe](assets/wireframes/wireframes-spa-treaments.png)
 
 ## Deployment:
 
