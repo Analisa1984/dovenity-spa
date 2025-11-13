@@ -61,7 +61,7 @@
               <a class="nav-link" href="spa-facilities.html">Spa Facilities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="food-and-drinks.html">Food & Drinks</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -81,46 +81,110 @@
     </header>
 
     <main>
-      <!-- Spa Pics Section -->
-      <section class="container-fluid">
+      <!-- Spa Pics Section with 4 static cards for tablets, laptops and PC screens from bootstrap 5 template -->
+      <section class="container-fluid d-none d-sm-none d-md-block">
         <div class="row">
-          <div class="col-12" hidden>Spa Pics</div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 22rem; height: 20rem"
+          >
+            <img
+              src="assets/images/spa-pics/spa-pic-1.jpg"
+              class="card-img-top"
+              alt="image of flowers, towel, massage oil on a table"
+              style="height: 100%"
+            />
+          </div>
+
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 22rem; height: 20rem"
+          >
+            <img
+              src="assets/images/spa-pics/spa-pic-2.jpg"
+              class="card-img-top"
+              alt="image of an indoor swimming pool"
+              style="height: 100%"
+            />
+          </div>
+
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 22rem; height: 20rem"
+          >
+            <img
+              src="assets/images/spa-pics/spa-pic-3.jpg"
+              class="card-img-top"
+              alt="image of outdoor swimming pool with fountain"
+              style="height: 100%"
+            />
+          </div>
+
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 22rem; height: 20rem"
+          >
+            <img
+              src="assets/images/spa-pics/spa-pic-4.jpg"
+              class="card-img-top"
+              alt="image of outdoor swimming pool with the spa"
+              style="height: 100%"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Spa Pics Section with carousel display for mobiles and small screens only  -->
+      <section class="container-fluid d-sm-block d-md-none mb-4">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
               <img
                 src="assets/images/spa-pics/spa-pic-1.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="image of flowers, towel, massage oil on a table"
               />
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
+            <div class="carousel-item">
               <img
                 src="assets/images/spa-pics/spa-pic-2.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="image of an indoor swimming pool"
               />
             </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
+            <div class="carousel-item">
               <img
                 src="assets/images/spa-pics/spa-pic-3.jpg"
-                class="img-fluid"
+                class="d-block w-100"
                 alt="image of outdoor swimming pool with fountain"
               />
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem">
-              <img
-                src="assets/images/spa-pics/spa-pic-4.jpg"
-                class="img-fluid"
-                alt="image of outdoor swimming pool with the spa"
-              />
-            </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/spa-pics/spa-pic-4.jpg"
+              class="d-block w-100"
+              alt="image of outdoor swimming pool with the spa"
+            />
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
     </main>
