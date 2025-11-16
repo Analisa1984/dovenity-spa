@@ -62,6 +62,97 @@
       </div>
     </nav>
 
+    <!-- Bootstrap 5 form template with customization -->
+
+    <form>
+      <div class="mb-3">
+        <label for="fname" class="form-label">First Name:</label>
+        <input type="text" class="form-control" id="fname" />
+      </div>
+      <div class="mb-3">
+        <label for="lname" class="form-label">Last Name:</label>
+        <input type="text" class="form-control" id="lname" />
+      </div>
+      <div class="mb-3">
+        <label for="Email" class="form-label">Email address:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="Email"
+          aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">
+          We'll never share your email with anyone else.
+        </div>
+        <div class="mb-3">
+          <label for="cnumber" class="form-label">Contact Number: </label>
+          <input type="tel" class="form-control" id="cnumber" />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="date" class="form-label">Date & Time:</label>
+        <input type="date" class="form-control" id="date" />
+      </div>
+
+      <select class="form-select mb-3" aria-label="select time options">
+        <option selected>Select time please...</option>
+        <option value="1">10am</option>
+        <option value="2">11am</option>
+        <option value="3">12noon</option>
+        <option value="4">1pm</option>
+        <option value="5">2pm</option>
+        <option value="6">3pm</option>
+        <option value="7">4pm</option>
+        <option value="8">5pm</option>
+      </select>
+      <fieldset>
+        <legend>Please Choose which you woud like:</legend>
+
+        <label class="form-check-label" for="spat"> Spa Treatment(s) </label>
+        <input class="form-check-input" type="radio" name="spa" id="spat" />
+
+        <label class="form-check-label" for="spaf"> Spa Facilities </label>
+        <input class="form-check-input" type="radio" name="spa" id="spaf" />
+
+        <label class="form-check-label" for="both"> Both </label>
+        <input class="form-check-input" type="radio" name="spa" id="both" />
+      </fieldset>
+      <fieldset>
+        <legend>Choose your Spa Treatment:</legend>
+
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value="peel"
+          id="peel"
+        />
+        <label class="form-check-label" for="peel">Facial Peel </label>
+
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value="steam"
+          id="steam"
+        />
+        <label class="form-check-label" for="steam"> Facial Steaming </label>
+
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value="massage"
+          id="massage"
+        />
+        <label class="form-check-label" for="massage">
+          Deep Tissue Massage
+        </label>
+
+        <input class="form-check-input" type="checkbox" value="mud" id="mud" />
+        <label class="form-check-label" for="mud"> Mud Facial </label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
     <!-- footer Section -->
 
     <footer class="mt-auto">
