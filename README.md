@@ -1,5 +1,20 @@
 # Dovenity Spa
 
+## Table of Contents:
+
+1. ![About](#about)
+2. ![Buisiness Goals](#businessgoals)
+3. ![User Stories](#user-stories)
+4. ![Links Used](#links-used)
+5. ![Media Used](#media-used)
+6. ![Testing](#testing)
+7. ![Results from testing](#results-from-testing)
+8. ![Fixed](#fixed)
+9. ![Wireframes](#wireframes)
+10. ![Deployment](#deployment)
+11. ![How to use the website](#how-to-use-the-website)
+12. ![Credits](#credits)
+
 ## About:
 
 ### Dovenity Spa is a website created as a means to let the public know of a sanctuary which exists to allow its guests to relax, indulge in various treatments geared towards improving their mental and physical wellness and as a resort to escape the hassles of daily life in a safe and serene environment.
