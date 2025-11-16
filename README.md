@@ -2,18 +2,18 @@
 
 ## Table of Contents:
 
-1. ![About](#about)
-2. ![Buisiness Goals](#businessgoals)
-3. ![User Stories](#user-stories)
-4. ![Links Used](#links-used)
-5. ![Media Used](#media-used)
-6. ![Testing](#testing)
-7. ![Results from testing](#results-from-testing)
-8. ![Fixed](#fixed)
-9. ![Wireframes](#wireframes)
-10. ![Deployment](#deployment)
-11. ![How to use the website](#how-to-use-the-website)
-12. ![Credits](#credits)
+1. [About](#about)
+2. [Business Goals](#businessgoals)
+3. [User Stories](#user-stories)
+4. [Links Used](#links-used)
+5. [Media Used](#media-used)
+6. [Testing](#testing)
+7. [Results from testing](#results-from-testing)
+8. [Fixed](#fixed)
+9. [Wireframes](#wireframes)
+10. [Deployment](#deployment)
+11. [How to use the website](#how-to-use-the-website)
+12. [Credits](#credits)
 
 ## About:
 
