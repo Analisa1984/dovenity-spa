@@ -17,8 +17,17 @@ body {
 
 /* Navbar Styles */
 .navbar {
-  background: rgb(218, 169, 45);
+  background: rgb(144, 104, 5);
   height: 100px;
+  color: #e4c241;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-link {
+  color: #e4c241;
 }
 
 .navbar a {
@@ -35,7 +44,8 @@ header h1 {
   padding-bottom: 50px;
   font-size: 38px;
 }
-#welcome {
+#welcome,
+#treatments {
   font-family: var(--primary-font);
   font-size: 20px;
   font-weight: 300;
@@ -44,18 +54,65 @@ header h1 {
   line-height: 2em;
 }
 
-/* form styles */
-form {
-  border: 8px solid rgb(144, 104, 5);
-  width: 450px;
-  margin: 10px auto;
+/* Spa facilities page styles */
+#facilities-header {
+  text-align: center;
+  margin-top: 100px;
 }
+
+.facilities {
+  font-family: var(--primary-font);
+  margin: 20px;
+  display: flex;
+  justify-content: justify;
+  font-size: 20px;
+}
+
+.card-imgs {
+  height: 100%;
+}
+
+.card-center {
+  text-align: center;
+}
+
+/* form styles for Contact Us and Book Now */
 
 legend {
   text-align: center;
   font-size: 30px;
 }
 
+.border-spa,
+.border-contact {
+  border: 5px solid #e4c241;
+  margin: 7vw;
+  padding: 2.5em;
+}
+
+/* success pages styles */
+
+.tick {
+  font-size: 150px;
+  margin-left: 150px;
+  padding-top: 50px;
+  color: #e4c241;
+}
+
+/* Booking Success page styles */
+.booking {
+  border: 4px solid rgb(144, 104, 5);
+  width: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
 /* footer styles */
 footer {
   background: rgb(144, 104, 5);
@@ -63,11 +120,11 @@ footer {
   width: 100%;
 }
 
-footer img {
-  height: 300px;
-  padding-top: 40px;
-  width: 300px;
-}
+/* footer img {
+  height: 50vh;
+  padding-top: 2em;
+  width: 50vw;
+} */
 
 footer h3 {
   color: #e4c241;
@@ -83,6 +140,10 @@ footer a {
   padding-top: 5px;
   padding-bottom: 20px;
   margin-left: 20px;
+}
+
+footer .logo-footer {
+  height: 75%;
 }
 
 footer table {
