@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
   --primary-font: "Quicksand", sans-serif;
-  --secondary-font: "Caveat", sans-serif;
+  --secondary-font: "Momo", sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 .navbar {
   background: rgb(144, 104, 5);
   height: 100px;
-  color: #fffff;
+  color: #ffffff;
 }
 
 .logo {
