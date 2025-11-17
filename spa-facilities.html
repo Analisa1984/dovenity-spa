@@ -27,13 +27,57 @@
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+    <!-- Favicon links -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="assets/images/favicon/favicon-48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/images/favicon/favicon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/images/favicon/favicon-512x512.png"
+    />
+
     <title>Dovenity Spa | Spa Facilities</title>
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Dovenity Spa</a>
+        <a class="navbar" href="index.html">
+          <img
+            src="assets/images/spa-pics/dovenity-spa-logo-small320.png"
+            alt="dovenity spa logo"
+            class="logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -62,17 +106,274 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="food-and-drinks.html">Food & Drinks</a>
+              <a class="nav-link" href="spa-bookings.html"
+                ><button type="button" class="btn btn-light">
+                  Book Now
+                </button></a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <header>
-      <h1>Spa Facilities</h1>
+      <h1 id="spa-facilities" hidden>Spa Facilities</h1>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section>
+        <div class="embed-responsive embed-responsive-1by1 container-fluid">
+          <video
+            class="embed-responsive-item w-100"
+            src="assets/video/grantley-hall-video.mp4"
+            allowfullscreen
+            autoplay
+            controls
+            muted
+          ></video>
+        </div>
+      </section>
+      <section>
+        <h2 id="facilities-header">Spa Facilities</h2>
+        <p class="facilities">
+          At Dovenity Spa, you will be greeted by a large range filled with
+          luxury, serenity and tranquility. Whether you wish to explore our
+          serene, delicate outdoor to begin nourishing your mind and body or
+          head directly indoors to our nurturing ambient interior, you can
+          choose as you need. Many clients first step out and take walks or
+          picnics before venturing inside. We are pleased to inform you that our
+          Spa is 900 square meters. We have to your disposal an outdoor pool, 2
+          indoor pools, an indoor thermal hot tub, 2 steam rooms, several
+          massage rooms, 6 sauna rooms and 5 relaxation rooms. We are eager to
+          get you started on your relaxation and recovery journey, feel free to
+          book now.
+        </p>
+      </section>
+
+      <!-- Images for spa facilities bootstrap cards for larger screen sizes -->
+      <section class="container-fluid d-none d-sm-none d-md-block">
+        <div class="row">
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/spa-facilities/hot-tub.jpg"
+              class="card-img-top card-imgs"
+              alt="a person in a hot tub"
+            />
+            <div class="card-body">
+              <p class="card-text card-center">Hot Tub</p>
+            </div>
+          </div>
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/spa-facilities/sauna-room.jpg"
+              class="card-img-top card-imgs"
+              alt="a sauna room"
+            />
+            <div class="card-body">
+              <p class="card-text card-center">Sauna Room</p>
+            </div>
+          </div>
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/spa-facilities/steam-room.jpg"
+              class="card-img-top card-imgs"
+              alt="a steam room"
+            />
+            <div class="card-body">
+              <p class="card-text card-center">Steam Room</p>
+            </div>
+          </div>
+          <div
+            class="card col-sm-12 col-md-6 mx-auto mb-4"
+            style="width: 18rem"
+          >
+            <img
+              src="assets/images/spa-facilities/swimming-pool.jpg"
+              class="card-img-top card-imgs"
+              alt="image of swimming pool"
+            />
+            <div class="card-body">
+              <p class="card-text card-center">Swimming pool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Spa Images section in carousel display for mobiles and smaller screens only -->
+
+      <section class="container-fluid d-sm-block d-md-none mb-4">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/images/spa-facilities/hot-tub.jpg"
+                class="d-block w-100"
+                alt="hot tub room"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Hot Tub Room</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/spa-facilities/sauna-room.jpg"
+                class="d-block w-100"
+                alt="sauna room"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Sauna Room</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/spa-facilities/steam-room.jpg"
+                class="d-block w-100"
+                alt="steam room"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Steam Room</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/images/spa-facilities/swimming-pool.jpg"
+                class="d-block w-100"
+                alt="swimming pool"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Swimming Pool</p>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer Section -->
+
+    <footer class="mt-auto">
+      <div class="row">
+        <div class="col pt-3">
+          <a href="index.html">
+            <img
+              src="assets/images/spa-pics/dovenity-spa-logo-small320.png"
+              alt="image of dovenity spa logo"
+              class="pt-3"
+            />
+          </a>
+        </div>
+
+        <!-- Opening Hours of Dovenity Spa -->
+        <div class="col">
+          <table>
+            <tr>
+              <th></th>
+              <th>Opening Hours:</th>
+            </tr>
+            <tr>
+              <td>Mon</td>
+              <td>10:00 - 18:00</td>
+            </tr>
+            <tr>
+              <td>Tues</td>
+              <td>10:00 - 18:00</td>
+            </tr>
+            <tr>
+              <td>Wed</td>
+              <td>10:00 - 18:00</td>
+            </tr>
+            <tr>
+              <td>Thurs</td>
+              <td>10:00 - 18:00</td>
+            </tr>
+            <tr>
+              <td>Fri</td>
+              <td>10:00 - 18:00</td>
+            </tr>
+            <tr>
+              <td>Sat</td>
+              <td>9:00 - 20:00</td>
+            </tr>
+            <tr>
+              <td>Sun</td>
+              <td>Closed</td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- Social media links to join in footer section -->
+        <div class="col social-media">
+          <h3>JOIN US ON SOCIAL MEDIA</h3>
+          <br />
+          <a href="http://www.facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="http:www.instagram.com" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="http:www.twitter.com" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <br />
+          <a href="contact.html" target="_self" class="contact">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+
     <!-- Bootstrap 5 JavaScript  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -80,7 +381,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- favicon awesome kit js code -->
+    <!-- favicon awesome kit JS code -->
     <script
       src="https://kit.fontawesome.com/8da35863e9.js"
       crossorigin="anonymous"

@@ -23,12 +23,56 @@
 
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicon links -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="assets/images/favicon/favicon-48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/images/favicon/favicon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/images/favicon/favicon-512x512.png"
+    />
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar" href="index.html">Dovenity Spa</a>
+        <a class="navbar" href="index.html">
+          <img
+            src="assets/images/spa-pics/dovenity-spa-logo-small320.png"
+            alt="dovenity spa logo"
+            class="logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,9 +88,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="spa-treatments.html">Spa Treatments</a>
@@ -55,7 +97,11 @@
               <a class="nav-link" href="spa-facilities.html">Spa Facilities</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" aria-current="page" href="spa-bookings.html"
+                ><button type="button" class="btn btn-light">
+                  Book Now
+                </button></a
+              >
             </li>
           </ul>
         </div>
@@ -64,14 +110,15 @@
 
     <!-- Bootstrap 5 form template with customization -->
 
-    <form>
+    <form class="border-spa">
+      <legend>Booking Form</legend>
       <div class="mb-3">
         <label for="fname" class="form-label">First Name:</label>
-        <input type="text" class="form-control" id="fname" />
+        <input type="text" class="form-control" id="fname" required />
       </div>
       <div class="mb-3">
         <label for="lname" class="form-label">Last Name:</label>
-        <input type="text" class="form-control" id="lname" />
+        <input type="text" class="form-control" id="lname" required />
       </div>
       <div class="mb-3">
         <label for="Email" class="form-label">Email address:</label>
@@ -80,8 +127,9 @@
           class="form-control"
           id="Email"
           aria-describedby="emailHelp"
+          required
         />
-        <div id="emailHelp" class="form-text">
+        <div id="emailHelp" class="form-text mb-3">
           We'll never share your email with anyone else.
         </div>
         <div class="mb-3">
@@ -150,18 +198,25 @@
         <label class="form-check-label" for="mud"> Mud Facial </label>
       </fieldset>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <a href="success-booking.html" target="_self"
+        ><button type="button" class="btn btn-primary mt-3">
+          Submit Booking
+        </button></a
+      >
     </form>
 
     <!-- footer Section -->
 
     <footer class="mt-auto">
       <div class="row">
-        <div class="col text-center">
-          <img
-            src="assets/images/spa-pics/spa-logo.png"
-            alt="image of dovenity spa logo"
-          />
+        <div class="col pt-3">
+          <a href="index.html">
+            <img
+              src="assets/images/spa-pics/dovenity-spa-logo-small320.png"
+              alt="image of dovenity spa logo"
+              class="pt-3"
+            />
+          </a>
         </div>
 
         <!-- Opening Hours of Dovenity Spa -->
@@ -216,7 +271,7 @@
             ><i class="fa-brands fa-x-twitter"></i
           ></a>
           <br />
-          <a href="contact.html" target="_blank" class="contact">Contact Us</a>
+          <a href="contact.html" target="_self" class="contact">Contact Us</a>
         </div>
       </div>
     </footer>
