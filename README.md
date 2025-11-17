@@ -103,6 +103,9 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 5. Booking Form for mobiles, tablets and PC:
    ![Booking Form](assets/wireframes/booking-form.png)
 
+6. Thank you for Booking and Contacting Us Pages for mobiles, tablets and PC:
+   ![Thank You Success Pages](assets/wireframes/wireframe-success.png)
+
 ## Deployment:
 
 ## How to use the website:
