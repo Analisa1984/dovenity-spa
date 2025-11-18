@@ -58,9 +58,10 @@ header h1 {
 }
 
 /* Spa facilities page styles */
-#facilities-header {
-  text-align: center;
+#spa-facilities {
   margin-top: 100px;
+  font-size: 38px;
+  text-align: center;
 }
 
 .card-imgs {
