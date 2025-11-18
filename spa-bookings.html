@@ -166,56 +166,103 @@
         <option value="7">4pm</option>
         <option value="8">5pm</option>
       </select>
-      <fieldset>
+      <fieldset class="mb-3">
         <legend>Please Choose which you woud like:</legend>
+        <div class="d-flex justify-content-between mb-3">
+          <label class="form-check-label" for="spat"> Spa Treatment(s) </label>
+          <input class="form-check-input" type="radio" name="spa" id="spat" />
 
-        <label class="form-check-label" for="spat"> Spa Treatment(s) </label>
-        <input class="form-check-input" type="radio" name="spa" id="spat" />
+          <label class="form-check-label" for="spaf"> Spa Facilities </label>
+          <input class="form-check-input" type="radio" name="spa" id="spaf" />
 
-        <label class="form-check-label" for="spaf"> Spa Facilities </label>
-        <input class="form-check-input" type="radio" name="spa" id="spaf" />
-
-        <label class="form-check-label" for="both"> Both </label>
-        <input class="form-check-input" type="radio" name="spa" id="both" />
+          <label class="form-check-label" for="both"> Both </label>
+          <input class="form-check-input" type="radio" name="spa" id="both" />
+        </div>
       </fieldset>
-      <fieldset>
+
+      <fieldset class="mb-3">
         <legend>Choose your Spa Treatment:</legend>
+        <div class="d-flex justify-content-between mb-3">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="peel"
+            id="peel"
+          />
+          <label class="form-check-label" for="peel">Facial Peel </label>
 
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value="peel"
-          id="peel"
-        />
-        <label class="form-check-label" for="peel">Facial Peel </label>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="steam"
+            id="steam"
+          />
+          <label class="form-check-label" for="steam"> Facial Steaming </label>
 
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value="steam"
-          id="steam"
-        />
-        <label class="form-check-label" for="steam"> Facial Steaming </label>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="massage"
+            id="massage"
+          />
+          <label class="form-check-label" for="massage">
+            Deep Tissue Massage
+          </label>
 
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value="massage"
-          id="massage"
-        />
-        <label class="form-check-label" for="massage">
-          Deep Tissue Massage
-        </label>
-
-        <input class="form-check-input" type="checkbox" value="mud" id="mud" />
-        <label class="form-check-label" for="mud"> Mud Facial </label>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="mud"
+            id="mud"
+          />
+          <label class="form-check-label" for="mud"> Mud Facial </label>
+        </div>
       </fieldset>
 
-      <a href="success-booking.html" target="_self"
-        ><button type="button" class="btn btn-primary mt-3">
-          Submit Booking
-        </button></a
-      >
+      <fieldset class="mb-3">
+        <legend>Choose your Spa Facilities:</legend>
+        <div class="d-flex justify-content-between">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="tub"
+            id="tub"
+          />
+          <label class="form-check-label" for="tub">Hot Tub </label>
+
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="sauna"
+            id="sauna"
+          />
+          <label class="form-check-label" for="sauna">Sauna Room</label>
+
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="steam"
+            id="steam"
+          />
+          <label class="form-check-label" for="steam"> Steam Room </label>
+
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value="pool"
+            id="pool"
+          />
+          <label class="form-check-label" for="pool">Swimming Pool</label>
+        </div>
+      </fieldset>
+
+      <div class="d-flex justify-content-center">
+        <a href="success-booking.html" target="_self"
+          ><button type="button" class="btn btn-warning mt-3 mb-3">
+            Submit Booking
+          </button></a
+        >
+      </div>
     </form>
 
     <!-- footer Section -->
