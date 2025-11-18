@@ -1,7 +1,7 @@
 /* Global Styles */
 :root {
   --primary-font: "Quicksand", sans-serif;
-  --secondary-font: "Momo", sans-serif;
+  --secondary-font: "Caveat", sans-serif;
 }
 
 body {
@@ -19,7 +19,8 @@ body {
 .navbar {
   background: rgb(144, 104, 5);
   height: 100px;
-  color: #ffffff;
+  /* color: #e4c241; */
+  color: antiquewhite;
 }
 
 .logo {
@@ -27,7 +28,7 @@ body {
 }
 
 .nav-link {
-  color: #e4c241;
+  color: antiquewhite;
 }
 
 .navbar a {
@@ -45,10 +46,11 @@ header h1 {
   font-size: 38px;
 }
 #welcome,
-#treatments {
+#treatments,
+.facilities {
   font-family: var(--primary-font);
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
   text-align: justify;
   margin: 40px;
   line-height: 2em;
@@ -58,14 +60,6 @@ header h1 {
 #facilities-header {
   text-align: center;
   margin-top: 100px;
-}
-
-.facilities {
-  font-family: var(--primary-font);
-  margin: 20px;
-  display: flex;
-  justify-content: justify;
-  font-size: 20px;
 }
 
 .card-imgs {
@@ -96,7 +90,7 @@ legend {
   font-size: 150px;
   margin-left: 150px;
   padding-top: 50px;
-  color: #e4c241;
+  color: #antiquewhite;
 }
 
 /* Booking Success page styles */
@@ -127,7 +121,8 @@ footer {
 } */
 
 footer h3 {
-  color: #e4c241;
+  /* color: #e4c241; */
+  color: antiquewhite;
   padding-top: 35px;
 }
 
@@ -147,7 +142,7 @@ footer .logo-footer {
 }
 
 footer table {
-  color: #e4c241;
+  color: antiquewhite;
   display: flex;
   justify-content: center;
 }
@@ -155,5 +150,5 @@ footer table {
 .contact {
   text-decoration: underline 10px;
   margin-bottom: 0;
-  color: #e4c241;
+  color: antiquewhite;
 }
