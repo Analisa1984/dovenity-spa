@@ -80,6 +80,9 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 ## Media Used:
 
+1. Grantley Hall Video :
+   ![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
+
 ## Testing:
 
 ### Results from Testing:
@@ -108,6 +111,14 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 ## Deployment:
 
+Deployed to GitHub Pages on 17th November 2026.
+
 ## How to use the website:
+
+## References:
+
+1. Grantley Hall Video from Pexels.com/video/grantley-hall-27693495/ by David Pickup.
+2. Unsplash for all images used in website.
+3. Bootstrap 5 library.
 
 ## Credits:
