@@ -21,6 +21,7 @@ body {
   height: 100px;
   /* color: #e4c241; */
   color: antiquewhite;
+  font-size: 35px;
 }
 
 .logo {
@@ -117,10 +118,7 @@ footer {
 footer .join-us {
   color: antiquewhite;
   padding-top: 35px;
-}
-
-footer .social-media {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 footer a {
