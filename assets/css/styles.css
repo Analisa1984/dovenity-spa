@@ -39,7 +39,14 @@ body {
   border-bottom: 5px solid rgb(102, 68, 18);
 }
 
-/* Welcome Paragraph Styles */
+/* Styles for Book Now button */
+
+.btn {
+  font-size: 30px;
+  background: antiquewhite;
+}
+
+/* Welcome Paragraph Styles in body */
 header h1 {
   text-align: center;
   padding-top: 100px;
