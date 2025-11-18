@@ -44,6 +44,7 @@ body {
 .btn {
   font-size: 30px;
   background: antiquewhite;
+  color: black;
 }
 
 /* Welcome Paragraph Styles in body */
