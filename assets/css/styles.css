@@ -114,14 +114,7 @@ footer {
   width: 100%;
 }
 
-/* footer img {
-  height: 50vh;
-  padding-top: 2em;
-  width: 50vw;
-} */
-
-footer h3 {
-  /* color: #e4c241; */
+footer .join-us {
   color: antiquewhite;
   padding-top: 35px;
 }
