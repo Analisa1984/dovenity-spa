@@ -118,7 +118,18 @@ Deployed to GitHub Pages on 17th November 2026.
 ## References:
 
 1. Grantley Hall Video from Pexels.com/video/grantley-hall-27693495/ by David Pickup.
-2. Unsplash for all images used in website.
-3. Bootstrap 5 library.
+2. Unsplash image for Home page - plastic pump bottle beside pink tulips by Camille Brodard.
+3. Unsplash image for Home page - people in swimming pool during day time by Mary McDonald.
+4. Unsplash image for Home page - large indoor pool with a bench next to it by Judith Girard Marczak.
+5. Unsplash image for Home Page - outdoor swimming pool at a resort by Zheka Boychenko.
+6. Unsplash image for Spa Treatments page - woman wearing a blue robe lying with a cucumber by Adrian Matroc.
+7. Unsplash image for Spa Treatmnents page - blurry photo of a steamer by Jens Riesenberg.
+8. Unsplash image for Spa Treatments page - a bed with wooden frame by Flavio Anibal.
+9. Unsplash image for Spa Treatments page - man wearing a mud mask by Rosa Rafael.
+10. Unsplash image for Spa Facilities page - cruise ship deck by TravelPriceWatch.
+11. Unsplash image for Spa Facilities page - boy reading book in hot tub by Michael Chiara.
+12. Unsplash image for spa Facilities page - brown and white floral round table by HUUM Sauna.
+13. Unsplash image for Spa Facilities page - a couple of people that are sitting in a sauna by HUUM Sauna.
+14. Bootstrap 5.3.8 version library utlized.
 
 ## Credits:
