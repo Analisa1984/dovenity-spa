@@ -17,7 +17,7 @@
 
 ## About:
 
-### Dovenity Spa is a website created as a means to let the public know of a sanctuary which exists to allow its guests to relax, indulge in various treatments geared towards improving their mental and physical wellness and as a resort to escape the hassles of daily life in a safe and serene environment.
+### Dovenity Spa is a fictional website created as a means to let the public know of a sanctuary which exists to allow its guests to relax, indulge in various treatments geared towards improving their mental and physical wellness and as a resort to escape the hassles of daily life in a safe and serene environment.
 
 ## Business Goals
 
@@ -83,9 +83,18 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 1. Grantley Hall Video :
    ![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
 
-## Testing:
+## Testing & Results of final testing:
 
-### Results from Testing:
+1. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
+
+2. Web Accessibility was checked using www.accessibilitychecker.org:
+   ![Accessibilty Check results](assets/images/testing-final/accessibility-last.png)
+
+3. HTML validation was done using an online HTML validator, Nu HTML Checker:
+   ![Nu HTML Checker results](assets/images/testing-final/html-validator-last.png)
+
+4. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
+   ![W3C CSS Validation results](assets/images/testing-final/css-validator-last.png)
 
 ### Fixed:
 
