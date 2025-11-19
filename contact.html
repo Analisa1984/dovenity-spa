@@ -98,25 +98,43 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spa-treatments.html">Spa Treatments</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spa-facilities.html">Spa Facilities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a
+                class="nav-link"
+                href="index.html"
+                aria-label="link goes to home page"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
+                href="spa-treatments.html"
+                aria-label="link goes to spa treatment page"
+                >Spa Treatments</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="spa-facilities.html"
+                aria-label="link goes to spa faciities page"
+                >Spa Facilities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                aria-label="link goes to contact us page"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-warning"
                 href="spa-bookings.html"
-                aria-label="Book Now button goes to Booking Form page"
-                ><button type="button" class="btn btn-light">
-                  Book Now
-                </button></a
+                aria-label="this link leads to the booking form"
+                >Book Now</a
               >
             </li>
           </ul>
@@ -128,6 +146,7 @@
     <h1 hidden>Contact Us Form</h1>
     <form
       method="get"
+      action="success-contact.html"
       class="border-contact"
       aria-label="Contact Us form to fill in"
     >
@@ -135,22 +154,46 @@
         <legend>Contact Us</legend>
         <div class="mb-3">
           <label for="fname" class="form-label">First Name</label>
-          <input type="text" id="name" class="form-control" required />
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            required
+            placeholder="required..."
+          />
         </div>
 
         <div class="mb-3">
           <label for="lname" class="form-label">Last Name</label>
-          <input type="text" id="name" class="form-control" required />
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            required
+            placeholder="required..."
+          />
         </div>
 
         <div class="mb-3">
           <label for="email" class="form-label">Email Address</label>
-          <input type="email" id="email" class="form-control" required />
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            required
+            placeholder="required..."
+          />
         </div>
 
         <div class="mb-3">
           <label for="pnumber" class="form-label">Contact Number</label>
-          <input type="tel" id="pnumber" class="form-control" />
+          <input
+            type="tel"
+            id="pnumber"
+            class="form-control"
+            required
+            placeholder="required..."
+          />
         </div>
 
         <br />
@@ -161,11 +204,9 @@
           placeholder="Please leave your comments and a member of staff will get back to you if you wish."
         ></textarea>
       </fieldset>
-      <a href="success-contact.html"
-        ><button type="button" class="btn btn-warning mt-3">
-          Submit Form
-        </button></a
-      >
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-warning mt-3 mb-3">Submit</button>
+      </div>
     </form>
 
     <!-- footer Section -->

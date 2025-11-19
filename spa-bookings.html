@@ -92,26 +92,44 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spa-treatments.html">Spa Treatments</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="spa-facilities.html">Spa Facilities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a
+                class="nav-link"
+                href="index.html"
+                aria-label="link goes to home page"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                aria-current="page"
+                href="spa-treatments.html"
+                aria-label="link goes to spa treatment page"
+                >Spa Treatments</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="spa-facilities.html"
+                aria-label="link goes to spa faciities page"
+                >Spa Facilities</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                aria-label="link goes to contact us page"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-warning"
                 href="spa-bookings.html"
-                aria-label="Book Now button goes to Booking Form page"
-                ><button type="button" class="btn btn-light">
-                  Book Now
-                </button></a
+                aria-current="current page"
+                aria-label="this link leads to the booking form"
+                >Book Now</a
               >
             </li>
           </ul>
@@ -123,15 +141,32 @@
 
     <h1 hidden>Dovenity Spa Booking Form</h1>
 
-    <form class="border-spa" aria-label="form to book treatments or facilities">
+    <form
+      class="border-spa"
+      aria-label="form to book treatments or facilities"
+      method="get"
+      action="success-booking.html"
+    >
       <legend>Booking Form</legend>
       <div class="mb-3">
         <label for="fname" class="form-label">First Name:</label>
-        <input type="text" class="form-control" id="fname" required />
+        <input
+          type="text"
+          class="form-control"
+          id="fname"
+          required
+          placeholder="required..."
+        />
       </div>
       <div class="mb-3">
         <label for="lname" class="form-label">Last Name:</label>
-        <input type="text" class="form-control" id="lname" required />
+        <input
+          type="text"
+          class="form-control"
+          id="lname"
+          required
+          placeholder="required..."
+        />
       </div>
       <div class="mb-3">
         <label for="Email" class="form-label">Email address:</label>
@@ -141,6 +176,7 @@
           id="Email"
           aria-describedby="emailHelp"
           required
+          placeholder="required..."
         />
         <div id="emailHelp" class="form-text mb-3">
           We'll never share your email with anyone else.
@@ -255,13 +291,11 @@
           />
         </div>
       </fieldset>
-
+      <p>** All fields are required on this form</p>
       <div class="d-flex justify-content-center">
-        <a href="success-booking.html" target="_self"
-          ><button type="button" class="btn btn-warning mt-3 mb-3">
-            Submit Booking
-          </button></a
-        >
+        <button type="submit" class="btn btn-warning mt-3 mb-3">
+          Submit Booking
+        </button>
       </div>
     </form>
 
