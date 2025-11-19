@@ -3,17 +3,22 @@
 ## Table of Contents:
 
 1. [About](#about)
-2. [Business Goals](#businessgoals)
+2. [Business Goals](#business-goals)
 3. [User Stories](#user-stories)
-4. [Links Used](#links-used)
-5. [Media Used](#media-used)
-6. [Testing](#testing)
-7. [Results from testing](#results-from-testing)
-8. [Fixed](#fixed)
-9. [Wireframes](#wireframes)
-10. [Deployment](#deployment)
-11. [How to use the website](#how-to-use-the-website)
-12. [Credits](#credits)
+4. [Wireframes](#wireframes)
+5. [Languages and Technologies used](#languages-and-technologies-used)
+6. [Links Used](#links-used)
+7. [Media Used](#media-used)
+8. [Testing and Results from final testing](#testing-and-results-from-final-testing)
+9. [Results from testing](#results-from-testing)
+10. [Fixed](#fixed)
+11. [Final Product](#final-product)
+12. [Deployment](#deployment)
+13. [How to use the website](#how-to-use-the-website)
+14. [References](#references)
+15. [Issues](#issues)
+16. [Limitations](#limitations)
+17. [Acknowlegements](#acknowlegements)
 
 ## About:
 
@@ -76,28 +81,6 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
     I would like to know the location of the Dovenity Spa to check if it is feasible for me to book a treament for myself.
 
-## Links used:
-
-## Media Used:
-
-1. Grantley Hall Video :
-   ![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
-
-## Testing & Results of final testing:
-
-1. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
-
-2. Web Accessibility was checked using www.accessibilitychecker.org:
-   ![Accessibilty Check results](assets/images/testing-final/accessibility-last.png)
-
-3. HTML validation was done using an online HTML validator, Nu HTML Checker:
-   ![Nu HTML Checker results](assets/images/testing-final/html-validator-last.png)
-
-4. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
-   ![W3C CSS Validation results](assets/images/testing-final/css-validator-last.png)
-
-### Fixed:
-
 ## Wireframes:
 
 1. Home Page for mobiles, tablets and PC:
@@ -117,6 +100,62 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 6. Thank you for Booking and Contacting Us Pages for mobiles, tablets and PC:
    ![Thank You Success Pages](assets/wireframes/wireframe-success.png)
+
+## Languages and Technologies used:
+
+1. HTML
+2. CSS
+3. Bootstrap version 5.3.8 Library - for navigation bar, footer and other body elements and class implementation for styling .
+4. Font Awesome library for icons
+5. Google Fonts to import additional fonts
+6. Adobe Express to create the Dovenity Spa Logo and favicons.
+7. to get screenshots of the product webpage on various brand devices.
+
+## Links used:
+
+## Media Used:
+
+1. Grantley Hall Video used in spa facilities page:
+   ![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
+
+## Testing and Results from final testing:
+
+1. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
+
+2. Web Accessibility was checked using www.accessibilitychecker.org:
+   ![Accessibilty Check results](assets/images/testing-final/accessibility-last.png)
+
+3. HTML validation was done using an online HTML validator, Nu HTML Checker:
+   ![Nu HTML Checker results](assets/images/testing-final/html-validator-last.png)
+
+4. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
+   ![W3C CSS Validation results](assets/images/testing-final/css-validator-last.png)
+
+## Results from Testing:
+
+## Fixed:
+
+1. Accessibility - Due to Web Accessibility Checks initially being low, aria-labels were then added to links, dropdown menu options, buttons and the video. All images has alt attributes.
+
+2. Contrast standards - Also the contrast standards were not met and the background color which was initially an image was changed to a background color. The image could have been used but the brightness and saturation would have been lessened. Also, the background image seemed to be distracting from the information content on the page which would have defeated the purpose of the webpage. A web contrast checker was used to help check for the required contrast standards. This also improved accesibility.
+
+3.
+
+## Final Product:
+
+This fictional product was designed to meet the goals of both the business as well as the potential users.
+
+- Smaller devices such as mobile phones:
+  ![mobile](assets/images/final-product/mobile.png)
+
+- Intermediate devices such as Ipad or tablets:
+  ![Ipad](assets/images/final-product/ipad.png)
+
+- Medium to Large sized devices such as laptop:
+  ![Laptop](assets/images/final-product/laptop.png)
+
+- Large devices such as PC:
+  ![PC](assets/images/final-product/pc.png)
 
 ## Deployment:
 
@@ -141,4 +180,8 @@ Deployed to GitHub Pages on 17th November 2026.
 13. Unsplash image for Spa Facilities page - a couple of people that are sitting in a sauna by HUUM Sauna.
 14. Bootstrap 5.3.8 version library utlized.
 
-## Credits:
+## Issues:
+
+## Limitations:
+
+## Acknowlegements:
