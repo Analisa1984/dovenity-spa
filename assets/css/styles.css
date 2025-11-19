@@ -39,6 +39,10 @@ body {
   border-bottom: 5px solid #8a6522;
 }
 
+.collapse {
+  background-color: #8a6522;
+}
+
 /* Styles for Book Now button */
 
 .btn {
