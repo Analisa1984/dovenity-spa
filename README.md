@@ -109,7 +109,7 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 4. Font Awesome library for icons
 5. Google Fonts to import additional fonts
 6. Adobe Express to create the Dovenity Spa Logo and favicons.
-7. to get screenshots of the product webpage on various brand devices.
+7. Chrome developer tools, Inspector, to get screenshots of the product webpage on varioussized devices.
 
 ## Links used:
 
@@ -130,6 +130,12 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 4. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
    ![W3C CSS Validation results](assets/images/testing-final/css-validator-last.png)
+
+5. Fonts changed in the body of pages to improve readability.
+
+6. Form styling added to makeit resposive when going to smaller devices.
+
+7. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
 
 ## Results from Testing:
 
@@ -162,6 +168,8 @@ This fictional product was designed to meet the goals of both the business as we
 Deployed to GitHub Pages on 17th November 2026.
 
 ## How to use the website:
+
+- On loading the website, you are first brought to the Home page which gives a welcome. The top section has a navigation bar. The navigation bar has a logo on the left and links to the right.The first link is the Home page. The second link is the spa treatments the third link is the spa facilities which is then followed by the contact us then a book now button. The call to action is the book now button.
 
 ## References:
 
