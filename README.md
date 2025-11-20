@@ -14,7 +14,7 @@
 10. [Fixed](#fixed)
 11. [Final Product](#final-product)
 12. [Deployment](#deployment)
-13. [How to use the website](#how-to-use-the-website)
+13. [Design and How to use the website](#design-and-how-to-use-the-website)
 14. [References](#references)
 15. [Issues](#issues)
 16. [Limitations](#limitations)
@@ -167,9 +167,45 @@ This fictional product was designed to meet the goals of both the business as we
 
 Deployed to GitHub Pages on 17th November 2026.
 
-## How to use the website:
+## Design and How to use the website:
 
-- On loading the website, you are first brought to the Home page which gives a welcome. The top section has a navigation bar. The navigation bar has a logo on the left and links to the right.The first link is the Home page. The second link is the spa treatments the third link is the spa facilities which is then followed by the contact us then a book now button. The call to action is the book now button.
+- On loading the website, you are first brought to the Home page which gives a welcome. The top section has a navigation bar. The navigation bar has a logo on the left and 5 links on the right side of the navbar. The first link is the Home page. The second link is the spa treatments the third link is the spa facilities which is then followed by the contact us then a book now button. The call to action is the book now button, which is actually a link that is styled like a button (as thi project uses only HTML, CSS and Bootsrtap 5.3.8).
+  The welcome section in the body is a paragraph gives details about the location, services of the spa.
+
+- Next, the footer contains the dovenity spa logo, which also links to the home page. The footer also shows the opening hours in a table format and then there are the social links to: facebook, instagram and X (formerly twitter). Finally, there is a contact us link.
+
+- If the user clicks on any elements on the navigation bar, the following will occur:
+
+1. Clicking on the logo leads user to the Home page.
+2. Clicking on the Home link leads to Home page.
+3. Clicking on the Spa Treatments Page leads to the various treaments offered.
+4. Clicking on the Spa Facilities page leads to the various facilites available at the spa.
+5. Clicking on the Contact Us link will take the user to the contact us form.
+6. Clicking on any of the Book Now links (styled as buttons) will lead to the booking form.
+7. Clicking on the Submit links (styled as buttons) will get a thank you form to the user.
+
+- If the user looks at the footer, they will see:
+
+1. The Dovenity Spa logo which is clickable and sends the user to the Home Page.
+2. The opening hours of the spa
+3. A Join us section which contain media links for Facebook, Instagram and X (formerly known as Twitter), these links sends the user to the respective social media's homepage (as Dovenity Spa is not a real institute).
+4. A Contact Us link thank sends the user to the Contact Us form.
+
+- All Pages have the same Navigation bar as well as the footer.
+
+- The body element of all pages have various content as follows:
+
+1. Home page has a welcome section which tells about the Dovenity Spa followed by various pictures on the screen. A carousel feature was added to the mobile and smaller devices so that the pictures would not be too fitted and for better visibility.
+
+2. Spa Treatment Page has a worded paragraph about the treatments an blow are 4 treatments described in a card each with a pic above, with the option to click the Book Now link (styled as a button) below.
+
+3. Spa Facilities has a video directly below the navigation bar, meant to show the outdoor grounds of the building to give potential users a feel of the serentity that the establishment offers. Following the video, a paragrah ensues which describes the facilites outdoor and indoor. Below the paragraph is a series of cards with pictures then description.
+
+4. The Contact Us Page, apart from teh Navigation bar as well as the Footer is a Form where the user can full out to alert staff or the establishment of any issues. The form has compulsory areas to be filled out in case the submit button is clicked by accident. This allows the user to make sure important details are filled out before submission as well as to ensure that the company does not receive blank emails.
+
+5. The Booking Form also has a form element whereby certain fields were required before submission is possible.
+
+6. The Thank you for Contacting Us Page and Thank You for Booking Page also have A Note with a tick symbol with a green background with the Thank you message. This was intentionally done to give the user a sense of comfort tomake them aware the form was sent.
 
 ## References:
 
