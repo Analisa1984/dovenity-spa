@@ -28,6 +28,11 @@ body {
   height: 100%;
 }
 
+.logo-top {
+  text-decoration: none;
+  position: absolute;
+}
+
 .nav-link {
   color: antiquewhite;
 }
