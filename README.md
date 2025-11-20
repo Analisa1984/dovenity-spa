@@ -29,9 +29,9 @@
 1. To increase the bookings of the spa treatments and spa facilites at the Dovenity Spa.
 2. To highlight the treatments, facilities and the services available at the Dovenity Spa.
 3. To give the public information on how to book at the Dovenity Spa.
-4. To give contact details of the Dovenity Spa.
+4. To give contact us section of the Dovenity Spa.
 5. Increase online awareness of Dovenity Spa through Search Engine Optimizarion.
-6. To make bookings available online through a form as well as a phone option to call reception.
+6. To make bookings available online through a form.
 
 ## User Stories:
 
@@ -73,14 +73,6 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
    I would like to know the training level of all the staff has had.
 
-10. User Story #10
-
-    I would like to know the availability of and the pricing information of parking at the Dovenity Spa.
-
-11. User Story #11
-
-    I would like to know the location of the Dovenity Spa to check if it is feasible for me to book a treament for myself.
-
 ## Wireframes:
 
 1. Home Page for mobiles, tablets and PC:
@@ -110,6 +102,9 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 5. Google Fonts to import additional fonts
 6. Adobe Express to create the Dovenity Spa Logo and favicons.
 7. Chrome developer tools, Inspector, to get screenshots of the product webpage on varioussized devices.
+8. Nu HTML Validator to check the HTML code.
+9. W3C CSS Validator to check the CSS code.
+10. Accessibility Checker from accessibilitychecker.org to check the accessibility using WCAG 2.1 and WCAG 2.0 guidelines.
 
 ## Links used:
 
@@ -129,7 +124,7 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 ## Media Used:
 
 1. Grantley Hall Video used in spa facilities page:
-   [![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)](https://www.pexels.com/video/grantley-hall-27693495/)
+   [![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)](https://www.pexels.com/video/grantley-hall-27693495/)]
 
 ## Testing and Results from final testing:
 
@@ -152,29 +147,58 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 5. Fonts changed in the body of pages to improve readability.
 
-6. Form styling added to makeit resposive when going to smaller devices.
+6. Form styling added to make it responsive when going to smaller devices.
 
 7. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
 
 ## Results from Testing:
 
+- Low Accessibility Report from Checks done:
+  ![Low Accessibility](assets/images/testing/accessibility-check-low.png)
+
+- Accessibility Errors reported from the checks done:
+  ![Accessibility Errors](assets/images/testing/accessibity-errors.png)
+
+- HTML validation Check with report showing errors:
+  ![HTML errors](assets/images/testing/html-validator-with-errors.png)
+
+- CSS validation Checks:
+  ![CSS checks](assets/images/testing-final/css-validator-final.png)
+
 ## Fixed:
 
-1. Accessibility - Due to Web Accessibility Checks initially being low, aria-labels were then added to links, dropdown menu options, buttons and the video. All images has alt attributes.
+- Before the final testings were done, previous testings were done. Previous testings showed low accessibility result and a few errors in the HTML validator. There were no errors reported from the CSS validator.
 
-2. Contrast standards - Also the contrast standards were not met and the background color which was initially an image was changed to a background color. The image could have been used but the brightness and saturation would have been lessened. Also, the background image seemed to be distracting from the information content on the page which would have defeated the purpose of the webpage. A web contrast checker was used to help check for the required contrast standards. This also improved accesibility.
+1. Accessibility errors mainly were fixed by changing the contrast. There was a prior background in the website. However, due to its brightness and high saturations levels of the image, it made reading the text difficult. Although the brightness and saturations levels were reduced, it was still difficult to read the text and visibity was hampered by the background which was very distracting.
+   Fixed: this was resolved by changing the background to a more neutral color and something that would blend with the header and footer background to give some continuity pattern in the product design.
 
-3.
+2. Accessibility: From testing it was revealed that not all links and elements that aria-labels. For accessibitlity purposes this needed to be changed.
+   Fixed: Aria-labels were added to labels, forms, buttons, images had alt text attributes. Caption was added for the table.
+
+3. Accessibility: the spa booking form labels were to close making visibility and reading more difficult.
+   Fixed: Spacing via padding, margins (bootstrap classes mostly) were used and <br> for the line spaces.
+
+4. Accessibility: Arial current can only have certain values.
+   Fixed: the current pages had the value of page (for the current page).
+
+5. HTML Validation error: the results showed that there were two columns in the table with the row of opening hours but the first column was not being used.
+   Fixed: the first column was deleted and in the column with opening hours, a colspan of 2 was added to show the column neatly.
+
+6. HTML Validation error: Initially there were 2 semantic errors reported. One page had headings not in order and due to the hierarchy they should follow, h1, h2, h3, h4, h5 then h6 headings. Secondly all pages should at least have an h1 heading.
+   Fixed: the Semanic hierarchy was then reviewed on all pages to ensure they are fixed in order from h1 to h6, also it was made certain that all pages had an h1 heading.
+
+7. Design: The navigation bar template was obtained from bootstrap 5.3.8. In place of the navbar an image was inserted and due to the navbar being in a container-fluid class, it pushed the border down under the image as the screen became smaller.
+   Fixed: the image was position absolute and that resolved the border issue.
 
 ## Final Product:
 
 This fictional product was designed to meet the goals of both the business as well as the potential users.
 
 - Smaller devices such as mobile phones:
-  ![mobile](assets/images/final-product/mobile.png)
+  ![mobile](assets/images/final-product/mobile-size-dovenity.png)
 
 - Intermediate devices such as Ipad or tablets:
-  ![Ipad](assets/images/final-product/ipad.png)
+  ![Ipad](assets/images/final-product/laptop.png)
 
 - Medium to Large sized devices such as laptop:
   ![Laptop](assets/images/final-product/laptop.png)
@@ -182,11 +206,66 @@ This fictional product was designed to meet the goals of both the business as we
 - Large devices such as PC:
   ![PC](assets/images/final-product/pc.png)
 
+## Business Goals and User stories met:
+
+1. Business-Goal #1:
+   To increase the bookings of the spa treatments and spa facilites at the Dovenity Spa.
+
+Call to action is the Book Now links (styled as buttons) located on every page in the navigation bar as well as every treatment in the spa treatment page.
+
+- Book Now Link in ALL pages in Navigation bar:
+  ![Book Now](assets/images/product-fulfilled/call-to-action-1.png)
+
+- Book Now Links in Spa Treatments page:
+  ![Book Now](assets/images/product-fulfilled/call-to-action-2.png)
+
+2. Business-Goal #2:
+   To highlight the treatments, facilities and the services available at the Dovenity Spa.
+
+Call to Action is the Spa Treatment page and Spa Facilities Page. These can be access from the navigation bar on top located on every page.
+
+- Spa Treatment Page:
+  ![spa treatment](assets/images/product-fulfilled/spa-treatment-cta.png)
+
+- Spa Facilities Page:
+  ![spa facilities](assets/images/product-fulfilled/spa-facilities-cta.png)
+
+3. Business-Goal #3:
+   To give the public information on how to book at the Dovenity Spa.
+
+Call to Action is the Spa Booking Forms with is obtained by clicking on the Book Now links (styled as buttons) on navigation bar or from the treatment page.
+
+- Spa Booking Form (obtained when Book Now link is clicked):
+  ![Dovenity Spa Booking Form](assets/images/product-fulfilled/spa-booking-form-cta.png)
+
+4. Business-Goal #4:
+   To give contact us section of the Dovenity Spa.
+
+Call to action is the Spa Contact Us link (found in the navigation bar on top and the footer below on all pages) which leads to the Contact us form.
+
+- Spa Contact Us Form and Contact Us link in the navigation bar
+  ![contact us form and llink in navbar](assets/images/product-fulfilled/spa-contact-cta.png)
+
+- Contact Us link in the footer
+  ![contact us in footer](<assets/images/product-fulfilled/spa-contact-cta%20(2).png>)
+
 ## Deployment:
 
 Deployed to GitHub Pages on 17th November 2026.
 
 ## Design and How to use the website:
+
+- This product (Dovenity Spa website) was designed to serve both the business goals and user stories.
+  The purpose of this product was to be a means to increase awareness of Dovenity Spa and to detail the treatments, facilities, services that this spa offer. As well as to serve the public that require and use spa services. Certain details have been left out due to time constraints and is mentioned under issues.
+
+- This product has a clear and simple design made easy for users to navigate by using the same design format for all the pages.
+
+  - Each page has a navigation bar on top where the links are shown and for smaller devices instead of the navigation links there is a dropdown burger menu. Also there is a logo on the top left.
+  - Each page has a footer section with the logo on the bottom left, the middle has a table with the opening hours and the bottom right has links to the social media links and a contact us section
+  - Both the navigation bar and the footer are the same color on all screen sizes and on all pages.
+  - the product was designed to be responsive to all screen devices so that words on paragraphs or forms do not overflow the borders or tables.
+  - In ALL pages there are links to the Home page and clicking on the logo (which is in all pages) will return the user to the home page.
+  - The between section of the navigation bar on top and the footer below vary with each page. However the background color is the same and matches with the top and bottom color to give continuity.
 
 - On loading the website, you are first brought to the Home page which gives a welcome. The top section has a navigation bar. The navigation bar has a logo on the left and 5 links on the right side of the navbar. The first link is the Home page. The second link is the spa treatments the third link is the spa facilities which is then followed by the contact us then a book now button. The call to action is the book now button, which is actually a link that is styled like a button (as thi project uses only HTML, CSS and Bootsrtap 5.3.8).
   The welcome section in the body is a paragraph gives details about the location, services of the spa.
@@ -216,7 +295,7 @@ Deployed to GitHub Pages on 17th November 2026.
 
 1. Home page has a welcome section which tells about the Dovenity Spa followed by various pictures on the screen. A carousel feature was added to the mobile and smaller devices so that the pictures would not be too fitted and for better visibility.
 
-2. Spa Treatment Page has a worded paragraph about the treatments an blow are 4 treatments described in a card each with a pic above, with the option to click the Book Now link (styled as a button) below.
+2. Spa Treatment Page has a worded paragraph about the treatments an blow are 4 treatments described in a card each with a pic above, with the option to click the Book Now link (styled as a button) below. The images were widened and a small portion of the sides were left to give a white border to the sides. This design was intentional.
 
 3. Spa Facilities has a video directly below the navigation bar, meant to show the outdoor grounds of the building to give potential users a feel of the serentity that the establishment offers. Following the video, a paragrah ensues which describes the facilites outdoor and indoor. Below the paragraph is a series of cards with pictures then description.
 
@@ -242,9 +321,18 @@ Deployed to GitHub Pages on 17th November 2026.
 12. Unsplash image for spa Facilities page - brown and white floral round table by HUUM Sauna.
 13. Unsplash image for Spa Facilities page - a couple of people that are sitting in a sauna by HUUM Sauna.
 14. Bootstrap 5.3.8 version library utlized.
+15. Nu HTML Validator.
+16. W3C CSS Validator.
+17. Accessibility Checker from accessibilitychecker.org.
 
 ## Issues:
 
+-
+
 ## Limitations:
+
+- Due to time limits more user stories could not have been implemented in the final product such as: testimonials, pricing for all services, rating of the spa, training level of the spa staff, online payment options for the services offered at the spa.
+
+- A foods and drinks page had been started but due to time contraints this had to be halted.
 
 ## Acknowlegements:
