@@ -1,27 +1,21 @@
 /* Global Styles */
 :root {
   --primary-font: "Quicksand", sans-serif;
-  --secondary-font: "Caveat", sans-serif;
 }
 
 body {
-  font-family: var(--secondary-font);
-  font-size: 28px;
-  font-weight: 600;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 400;
   background-color: antiquewhite;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 /* Navbar Styles */
 .navbar {
   background: #8a6522;
   height: 100px;
-  /* color: #e4c241; */
   color: antiquewhite;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .logo {
@@ -38,7 +32,7 @@ body {
   text-decoration: none;
 }
 .active {
-  border-bottom: 5px solid #8a6522;
+  border-bottom: 3px solid #550000;
 }
 
 .collapse {
@@ -48,7 +42,7 @@ body {
 /* Styles for Book Now button */
 
 .btn {
-  font-size: 30px;
+  font-size: 25px;
   background: antiquewhite;
   color: black;
 }
@@ -63,7 +57,7 @@ header h1 {
 #welcome,
 #treatments,
 .facilities {
-  font-family: var(--primary-font);
+  /* font-family: var(--primary-font); */
   font-size: 20px;
   font-weight: 500;
   text-align: justify;
@@ -117,7 +111,7 @@ legend {
 /* footer styles */
 footer {
   background: #8a6522;
-  font-size: 1.3em;
+  font-size: 1.15em;
   width: 100%;
 }
 
@@ -146,7 +140,7 @@ footer table {
 }
 
 .contact {
-  text-decoration: underline 10px;
+  text-decoration: underline 5px;
   margin-bottom: 0;
   color: antiquewhite;
 }
