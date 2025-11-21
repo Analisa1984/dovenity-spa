@@ -35,7 +35,7 @@
 
 ## User Stories:
 
-Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible user stories could include:
+Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible user stories could include:
 
 1. User Story #1
 
@@ -131,7 +131,7 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 1. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
 
 2. Web Accessibility was checked using www.accessibilitychecker.org:
-   ![Accessibilty Check results](assets/images/testing-final/accessibility-check-final.png)
+   ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
 
 3. HTML validation was done using an online HTML validator, Nu HTML Checker:
    ![Nu HTML Checker results](assets/images/testing-final/html-vaildator-final.png)
@@ -195,10 +195,10 @@ Althought DOvenity Spa is a fictitious spa, to demonstrate a website, possible u
 This fictional product was designed to meet the goals of both the business as well as the potential users.
 
 - Smaller devices such as mobile phones:
-  ![mobile](assets/images/final-product/mobile-size-dovenity.png)
+  ![mobile](assets/images/final-product/mobile.png)
 
 - Intermediate devices such as Ipad or tablets:
-  ![Ipad](assets/images/final-product/laptop.png)
+  ![Ipad](assets/images/final-product/ipad.png)
 
 - Medium to Large sized devices such as laptop:
   ![Laptop](assets/images/final-product/laptop.png)
@@ -211,7 +211,12 @@ This fictional product was designed to meet the goals of both the business as we
 1. Business-Goal #1:
    To increase the bookings of the spa treatments and spa facilites at the Dovenity Spa.
 
-Call to action is the Book Now links (styled as buttons) located on every page in the navigation bar as well as every treatment in the spa treatment page.
+   AND
+
+   User Story #3:
+   I would like to be able to book the Dovenity Spa online so that so that I don't have to go in person to the store or call to make a booking.
+
+   Call to action is the Book Now links (styled as buttons) located on every page in the navigation bar as well as every treatment in the spa treatment page.
 
 - Book Now Link in ALL pages in Navigation bar:
   ![Book Now](assets/images/product-fulfilled/call-to-action-1.png)
@@ -222,7 +227,17 @@ Call to action is the Book Now links (styled as buttons) located on every page i
 2. Business-Goal #2:
    To highlight the treatments, facilities and the services available at the Dovenity Spa.
 
-Call to Action is the Spa Treatment page and Spa Facilities Page. These can be access from the navigation bar on top located on every page.
+   AND
+
+   User Story #1
+   I would like details about all the treatments so that I could make a decision which one I would like, if any.
+
+   AND
+
+   User Story #2
+   I would like to know about all Dovenity Spa facilities such as the steam room so that I would know which facilities that I could choose from.
+
+   Call to Action is the Spa Treatment page and Spa Facilities Page. These can be access from the navigation bar on top located on every page.
 
 - Spa Treatment Page:
   ![spa treatment](assets/images/product-fulfilled/spa-treatment-cta.png)
@@ -233,7 +248,17 @@ Call to Action is the Spa Treatment page and Spa Facilities Page. These can be a
 3. Business-Goal #3:
    To give the public information on how to book at the Dovenity Spa.
 
-Call to Action is the Spa Booking Forms with is obtained by clicking on the Book Now links (styled as buttons) on navigation bar or from the treatment page.
+   AND
+
+   Business Goal #6:
+   To make bookings available online through a form.
+
+   AND
+
+   User Story #3
+   I would like to be able to book the Dovenity Spa online so that so that I don't have to go in person to the store or call to make a booking.
+
+   Call to Action is the Spa Booking Forms with is obtained by clicking on the Book Now links (styled as buttons) on navigation bar or from the treatment page.
 
 - Spa Booking Form (obtained when Book Now link is clicked):
   ![Dovenity Spa Booking Form](assets/images/product-fulfilled/spa-booking-form-cta.png)
@@ -241,13 +266,32 @@ Call to Action is the Spa Booking Forms with is obtained by clicking on the Book
 4. Business-Goal #4:
    To give contact us section of the Dovenity Spa.
 
-Call to action is the Spa Contact Us link (found in the navigation bar on top and the footer below on all pages) which leads to the Contact us form.
+   Call to action is the Spa Contact Us link (found in the navigation bar on top and the footer below on all pages) which leads to the Contact us form.
 
 - Spa Contact Us Form and Contact Us link in the navigation bar
   ![contact us form and llink in navbar](assets/images/product-fulfilled/spa-contact-cta.png)
 
 - Contact Us link in the footer
-  ![contact us in footer](<assets/images/product-fulfilled/spa-contact-cta%20(2).png>)
+  ![contact us in footer](assets/images/product-fulfilled/footer-social-cta.png)
+
+5. Business Goal #5:
+   Increase online awareness of Dovenity Spa through Search Engine Optimizarion.
+
+   Call to Action is the meta tag with the description and the values needed to have a good search engine optimization as seen below:
+
+![meta description](assets/images/product-fulfilled/meta-description-cta.png)
+
+6. User Story #5
+   I would like to know the opening hours of the Dovenity Spa to book within that time.
+
+   Call to Action is the opening hours table located in the footer of the webpage, as shown below:
+   ![opening hours](assets/images/product-fulfilled/footer-openinghours-cta.png)
+
+7. User Story #7
+   I would like to join their social media membership to know about sales and upcoming specials.
+
+   Call to action is the social media links located in the join-us section in the footer, as shown:
+   ![social media links](assets/images/product-fulfilled/footer-social-cta.png)
 
 ## Deployment:
 
@@ -347,7 +391,9 @@ Deployed to GitHub Pages on 17th November 2026.
 
 ## Issues:
 
--
+1. For the Footer, the contents were placed into a .cow and the table did not show uniform on smaller device.
+
+2. The carousel feature in the small screens for spa treatments, on the last image the forward and back buttons were tilted up. Unclear how to resolve this feature from the bootstap 5 carousel template.
 
 ## Limitations:
 
