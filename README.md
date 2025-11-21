@@ -111,20 +111,20 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 - External links include the social media links below:
 
 1. Facebook:
-   ![Facebook](https://www.facebook.com)
+   [Facebook](https://www.facebook.com)
 
 2. Instagram:
-   ![Instagram](https://www.instagram.com)
+   [Instagram](https://www.instagram.com)
 
 3. X (formerly known as Twitter):
-   ![X](https://www.twitter.com)
+   [X](https://www.twitter.com)
 
 - Internal links included links to
 
 ## Media Used:
 
 1. Grantley Hall Video used in spa facilities page:
-   [![Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)](https://www.pexels.com/video/grantley-hall-27693495/)]
+   [Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)](https://www.pexels.com/video/grantley-hall-27693495/)
 
 ## Testing and Results from final testing:
 
@@ -391,7 +391,7 @@ Deployed to GitHub Pages on 17th November 2026.
 
 ## Issues:
 
-1. For the Footer, the contents were placed into a .cow and the table did not show uniform on smaller device.
+1. For the Footer, the contents were placed into a .row and the table did not show uniform on smaller devices.
 
 2. The carousel feature in the small screens for spa treatments, on the last image the forward and back buttons were tilted up. Unclear how to resolve this feature from the bootstap 5 carousel template.
 
