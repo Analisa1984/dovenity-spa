@@ -54,6 +54,7 @@ header h1 {
   padding-bottom: 50px;
   font-size: 38px;
 }
+
 #welcome,
 #treatments,
 .facilities {
@@ -81,7 +82,6 @@ header h1 {
 }
 
 /* form styles for Contact Us and Book Now */
-
 legend {
   text-align: center;
   font-size: 30px;
