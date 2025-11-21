@@ -20,6 +20,7 @@
 16. [Issues](#issues)
 17. [Limitations](#limitations)
 18. [Acknowlegements](#acknowlegements)
+19. [Thank You](#thank-you-for-reviewing-this-product)
 
 ## About:
 
