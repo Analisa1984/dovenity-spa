@@ -397,6 +397,8 @@ Deployed to GitHub Pages on 17th November 2026.
 
 2. The carousel feature in the small screens for spa treatments, on the last image the forward and back buttons were tilted up. Unclear how to resolve this feature from the bootstap 5 carousel template.
 
+3. The opening hours table in the footer did not seem to stay together totally on smaller screens, I have tried displaying in flexbox, justifying, and the absolute positioning realigned other components, other methods to stabalize the table may have worked but the row class was used in the footer and it was unclear what other effects bootstrap 5 had.
+
 ## Limitations:
 
 - Due to time limits more user stories could not have been implemented in the final product such as: testimonials, pricing for all services, rating of the spa, training level of the spa staff, online payment options for the services offered at the spa.
