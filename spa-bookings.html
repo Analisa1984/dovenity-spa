@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dovenity Spa. Relaxation and wellness spa located in Ilkley Moor, Bradford. Offering massages, facials, body treatments, spa facilities and fine dining."
+    />
     <title>Spa Bookings</title>
 
     <!-- Google Fonts -->
@@ -146,91 +150,126 @@
       method="get"
       action="success-booking.html"
     >
-      <legend>Booking Form</legend>
-      <div class="mb-3">
-        <label for="fname" class="form-label">First Name:</label>
-        <input
-          type="text"
-          class="form-control"
-          id="fname"
-          required
-          placeholder="required..."
-        />
-      </div>
-      <div class="mb-3">
-        <label for="lname" class="form-label">Last Name:</label>
-        <input
-          type="text"
-          class="form-control"
-          id="lname"
-          required
-          placeholder="required..."
-        />
-      </div>
-      <div class="mb-3">
-        <label for="Email" class="form-label">Email address:</label>
-        <input
-          type="email"
-          class="form-control"
-          id="Email"
-          aria-describedby="emailHelp"
-          required
-          placeholder="required..."
-        />
-        <div id="emailHelp" class="form-text mb-3">
-          We'll never share your email with anyone else.
+      <fieldset>
+        <legend class="mb-3 pb-3">Booking Form</legend>
+        <div class="mb-3 mt-3">
+          <label for="fname" class="form-label">First Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="fname"
+            value="fname"
+            name="fname"
+            required
+            placeholder="required..."
+          />
         </div>
         <div class="mb-3">
-          <label for="cnumber" class="form-label">Contact Number: </label>
-          <input type="tel" class="form-control" id="cnumber" />
+          <label for="lname" class="form-label">Last Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lname"
+            name="lname"
+            value="lname"
+            required
+            placeholder="required..."
+          />
         </div>
-      </div>
-      <div class="mb-3">
-        <label for="date" class="form-label">Date & Time:</label>
-        <input type="date" class="form-control" id="date" />
-      </div>
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email address:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="Email"
+            name="email"
+            value="email"
+            aria-describedby="emailHelp"
+            required
+            placeholder="required..."
+          />
+          <div id="emailHelp" class="form-text mb-3 pb-3">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="my-3">
+          <label for="cnumber" class="form-label">Contact Number: </label>
+          <input
+            type="tel"
+            pattern="[0-9]{11}"
+            class="form-control"
+            id="cnumber"
+            name="cnumber"
+            value="cnumber"
+          />
+        </div>
 
-      <select class="form-select mb-3" aria-label="select time options">
-        <option selected>Select time please...</option>
-        <option value="1">10am</option>
-        <option value="2">11am</option>
-        <option value="3">12noon</option>
-        <option value="4">1pm</option>
-        <option value="5">2pm</option>
-        <option value="6">3pm</option>
-        <option value="7">4pm</option>
-        <option value="8">5pm</option>
-      </select>
-      <fieldset class="mb-3">
-        <legend>Please Choose which you woud like:</legend>
+        <div class="my-3">
+          <label for="date" class="form-label">Date & Time:</label>
+          <input type="date" class="form-control" id="date" />
+        </div>
+
+        <select class="form-select mb-3" aria-label="select time options">
+          <option selected>Select time please...</option>
+          <option value="1">10am</option>
+          <option value="2">11am</option>
+          <option value="3">12noon</option>
+          <option value="4">1pm</option>
+          <option value="5">2pm</option>
+          <option value="6">3pm</option>
+          <option value="7">4pm</option>
+          <option value="8">5pm</option>
+        </select>
+      </fieldset>
+      <fieldset class="my-3">
+        <legend class="my-3">Please Choose which you would like:</legend>
         <div class="d-flex justify-content-between mb-3 py-2 row">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <label class="form-check-label" for="spat">
               Spa Treatment(s)
             </label>
-            <input class="form-check-input" type="radio" name="spa" id="spat" />
+            <input
+              class="form-check-input"
+              type="radio"
+              name="spa"
+              value="spat"
+              id="spat"
+            />
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-4 py-2">
             <label class="form-check-label" for="spaf"> Spa Facilities </label>
-            <input class="form-check-input" type="radio" name="spa" id="spaf" />
+            <input
+              class="form-check-input"
+              type="radio"
+              name="spa"
+              value="spaf"
+              id="spaf"
+            />
           </div>
 
           <div class="col-sm-12 col-md-6 col-lg-4 py-2">
             <label class="form-check-label" for="both"> Both </label>
-            <input class="form-check-input" type="radio" name="spa" id="both" />
+            <input
+              class="form-check-input"
+              type="radio"
+              name="spa"
+              value="both"
+              id="both"
+            />
           </div>
         </div>
       </fieldset>
 
-      <fieldset class="mb-3">
-        <legend>Choose your Spa Treatment:</legend>
+      <fieldset class="my-3">
+        <legend class="my-3">Choose your Spa Treatment:</legend>
         <div class="d-flex justify-content-between mb-3 py-2 row">
           <div class="col-sm-12 col-md-6 col-lg-4">
             <label class="form-check-label" for="peel">Facial Peel </label>
             <input
               class="form-check-input"
               type="checkbox"
+              name="peel"
               value="peel"
               id="peel"
             />
@@ -244,6 +283,7 @@
               class="form-check-input"
               type="checkbox"
               value="steam"
+              name="steam"
               id="steam"
             />
           </div>
@@ -255,6 +295,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="massage"
               value="massage"
               id="massage"
             />
@@ -265,6 +306,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="mud"
               value="mud"
               id="mud"
             />
@@ -272,14 +314,15 @@
         </div>
       </fieldset>
 
-      <fieldset class="mb-3">
-        <legend>Choose your Spa Facilities:</legend>
+      <fieldset class="my-3">
+        <legend class="my-3">Choose your Spa Facilities:</legend>
         <div class="d-flex justify-content-between row">
           <div class="col-sm-12 col-md-6 col-lg-4 py-2">
             <label class="form-check-label" for="tub">Hot Tub </label>
             <input
               class="form-check-input"
               type="checkbox"
+              name="tub"
               value="tub"
               id="tub"
             />
@@ -290,6 +333,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="sauna"
               value="sauna"
               id="sauna"
             />
@@ -299,8 +343,9 @@
             <input
               class="form-check-input"
               type="checkbox"
-              value="steam"
-              id="steam"
+              name="steamroom"
+              value="steamroom"
+              id="steamroom"
             />
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 py-2">
@@ -308,6 +353,7 @@
             <input
               class="form-check-input"
               type="checkbox"
+              name="pool"
               value="pool"
               id="pool"
             />
@@ -316,7 +362,6 @@
       </fieldset>
       <br />
 
-      <p>** All fields are required on this form</p>
       <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-warning my-3">
           Submit Booking
@@ -344,7 +389,10 @@
 
         <!-- Opening Hours of Dovenity Spa -->
         <div class="col">
-          <table aria-label="opening hours of spa shown in a table">
+          <table
+            aria-label="opening hours of spa shown in a table"
+            class="my-3 py-3"
+          >
             <caption hidden>
               Opening hours of Dovenity Spa
             </caption>
@@ -387,19 +435,19 @@
           <p class="join-us">JOIN US ON SOCIAL MEDIA</p>
           <br />
           <a
-            href="http://www.facebook.com"
+            href="https://www.facebook.com"
             target="_blank"
             aria-label="facebook page"
             ><i class="fa-brands fa-facebook"></i
           ></a>
           <a
-            href="http://www.instagram.com"
+            href="https://www.instagram.com"
             target="_blank"
             aria-label="instagram page"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
-            href="http://www.twitter.com"
+            href="https://www.twitter.com"
             target="_blank"
             aria-label="twitter page"
             ><i class="fa-brands fa-x-twitter"></i
