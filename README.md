@@ -9,16 +9,17 @@
 5. [Languages and Technologies used](#languages-and-technologies-used)
 6. [Links Used](#links-used)
 7. [Media Used](#media-used)
-8. [Testing and Results from final testing](#testing-and-results-from-final-testing)
-9. [Results from testing](#results-from-testing)
-10. [Fixed](#fixed)
+8. [Results from testing](#results-from-testing)
+9. [Fixed](#fixed)
+10. [Testing and Results from final testing](#testing-and-results-from-final-testing)
 11. [Final Product](#final-product)
-12. [Deployment](#deployment)
-13. [Design and How to use the website](#design-and-how-to-use-the-website)
-14. [References](#references)
-15. [Issues](#issues)
-16. [Limitations](#limitations)
-17. [Acknowlegements](#acknowlegements)
+12. [Business Goals and User Stories met](#business-goals-and-user-stories-met)
+13. [Deployment](#deployment)
+14. [Design and How to use the website](#design-and-how-to-use-the-website)
+15. [References](#references)
+16. [Issues](#issues)
+17. [Limitations](#limitations)
+18. [Acknowlegements](#acknowlegements)
 
 ## About:
 
@@ -105,6 +106,7 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 8. Nu HTML Validator to check the HTML code.
 9. W3C CSS Validator to check the CSS code.
 10. Accessibility Checker from accessibilitychecker.org to check the accessibility using WCAG 2.1 and WCAG 2.0 guidelines.
+11. Figma software was used to create the wireframes.
 
 ## Links used:
 
@@ -390,6 +392,10 @@ Deployed to GitHub Pages on 17th November 2026.
 15. Nu HTML Validator.
 16. W3C CSS Validator.
 17. Accessibility Checker from accessibilitychecker.org.
+18. Figma for wireframe designs.
+19. W3C HTML validator testing website.
+20. W3C CSS validator testing website.
+21. Accessibility Checker (using Web Content Accessibility Guidelines WCAG 2.1 and WCAG 2.0 guidelines) from www.accessibilitychecker.org
 
 ## Issues:
 
@@ -405,4 +411,15 @@ Deployed to GitHub Pages on 17th November 2026.
 
 - A foods and drinks page had been started but due to time contraints this had to be halted.
 
+- This product has not had user acceptance testing and this would be advisable for regular business projects.
+
 ## Acknowlegements:
+
+1. I thank God Almighty.
+2. Code Institute and all staff for all lectures and learning materials provided throughout the course thus far.
+3. Bootstrap 5 doc in learning how to add classes and other elements.
+4. Unsplash for use of all royalty free images on the design of this webpage.
+5. Pexels.com for use of royalty free video for Grantley Hall.
+6. Figma software for free usage to create wireframes.
+
+### Thank You for reviewing this product!
