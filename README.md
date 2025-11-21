@@ -254,21 +254,24 @@ Call to action is the Spa Contact Us link (found in the navigation bar on top an
 Deployed to GitHub Pages on 17th November 2026.
 
 - Local development environment
+  Creating a local envrioment for future developers:
 
 1. Create a github account on `github.com/signup` or login using `github.com/login`
 2. Install git on your laptop, it is availible here for multiple operating systems `https://git-scm.com/install`
 3. Install VS Code on your machine `https://code.visualstudio.com/download`
 4. From the file menu `Open Folder` and select where you want to store the code
-5. Open VS code in the terminal window and open a bash terminal. This will be availible in Windows Mac and Linux
+5. Open VS code, in the terminal window and open a bash terminal. This will be availible in Windows Mac and Linux
 6. Clone the repository using `git clone https://github.com/Analisa1984/dovenity-spa.git` (no login will be required as dovenity spa is a public repository)
 
 - Deploying via Github pages
+  Creating a publicly accessible website:
 
 1. Login to Github `github.com`
 2. Go to the Dovenity Spa repository `https://github.com/Analisa1984/dovenity-spa`
 3. Click Settings
 4. Change to deploy branch and select `Main`
    ![Image of settings page](assets/images/deployment/github-settings.png)
+5. Push changes to the main branch, this will automatically deploy the website.
 
 ## Design and How to use the website:
 
