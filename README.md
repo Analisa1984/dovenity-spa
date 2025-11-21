@@ -124,7 +124,7 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 ## Media Used:
 
 1. Grantley Hall Video used in spa facilities page:
-   [Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)](https://www.pexels.com/video/grantley-hall-27693495/)
+   [Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
 
 ## Testing and Results from final testing:
 
