@@ -126,31 +126,6 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 1. Grantley Hall Video used in spa facilities page:
    [Grantley Hall Video](https://www.pexels.com/video/grantley-hall-27693495/)
 
-## Testing and Results from final testing:
-
-1. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
-
-2. Web Accessibility was checked using www.accessibilitychecker.org:
-   ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
-
-3. HTML validation was done using an online HTML validator, Nu HTML Checker:
-   ![Nu HTML Checker results](assets/images/testing-final/html-vaildator-final.png)
-
-   - HTML validation showed no errors but there were 2 grouped warnings:
-     ![HTML validator report showing 2 warnings](assets/images/testing-final/html-validator-warnings-final.png)
-     These warnings are due to section elements being created with no headings in them and instead advises the use of headings or div elements. However, since this element came from a bootstrap 5 card feature, as coded library I chose to leave this element and generally accept it as safe since it is from a renowned library.
-
-     Secondly, the other error showed due to closing slashes made to void elements such as the link element. Although, this (closing slash)code was added by a formatting tool called prettier code, it was also deemed as generally safe and this was the practice in prior HTML versions of coding.
-
-4. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
-   ![W3C CSS Validation results](assets/images/testing-final/css-validator-final.png)
-
-5. Fonts changed in the body of pages to improve readability.
-
-6. Form styling added to make it responsive when going to smaller devices.
-
-7. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
-
 ## Results from Testing:
 
 - Low Accessibility Report from Checks done:
@@ -189,6 +164,33 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 7. Design: The navigation bar template was obtained from bootstrap 5.3.8. In place of the navbar an image was inserted and due to the navbar being in a container-fluid class, it pushed the border down under the image as the screen became smaller.
    Fixed: the image was position absolute and that resolved the border issue.
+
+8. Styles: throughout the webpage, vaious elements would have needed margins and paddings to have better ease in readability. Also adjustments with fonts, contrast colors and weight of fonts were also frequently adjusted to add to user friendliness.
+
+## Testing and Results from final testing:
+
+8. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
+
+9. Web Accessibility was checked using www.accessibilitychecker.org:
+   ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
+
+10. HTML validation was done using an online HTML validator, Nu HTML Checker:
+    ![Nu HTML Checker results](assets/images/testing-final/html-vaildator-final.png)
+
+    - HTML validation showed no errors but there were 2 grouped warnings:
+      ![HTML validator report showing 2 warnings](assets/images/testing-final/html-validator-warnings-final.png)
+      These warnings are due to section elements being created with no headings in them and instead advises the use of headings or div elements. However, since this element came from a bootstrap 5 card feature, as coded library I chose to leave this element and generally accept it as safe since it is from a renowned library.
+
+      Secondly, the other error showed due to closing slashes made to void elements such as the link element. Although, this (closing slash)code was added by a formatting tool called prettier code, it was also deemed as generally safe and this was the practice in prior HTML versions of coding.
+
+11. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
+    ![W3C CSS Validation results](assets/images/testing-final/css-validator-final.png)
+
+12. Fonts changed in the body of pages to improve readability.
+
+13. Form styling added to make it responsive when going to smaller devices.
+
+14. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
 
 ## Final Product:
 
