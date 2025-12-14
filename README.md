@@ -174,21 +174,156 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 8. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
 
-| Homepage elements | Results                      |
-| ----------------- | ---------------------------- |
-| Navigation Bar    | tested                       |
-| Dovenity Spa Logo | Goes to home page            |
-| Home              | Goes to Home Page            |
-| Spa Treatments    | Goes to Spa Treatments Page  |
-| Spa Facilities    | Goes to Spa Facilities Page  |
-| Contact Us        | Goes to Contact Us Form Page |
-| Book Now (button) | Goes to Book Now Form Page   |
-| Footer Elements   | Tested                       |
-| Dovenity Spa Logo | Goes to home page            |
-| Facebook icon     | Goes to Facebook page        |
-| Instagram icon    | Goes to Instagram page       |
-| X icon            | Goes to X page (twitter)     |
-| Contact Us link   | Goes t0 Contact Us Form page |
+| Homepage elements                     | Results                                   |
+| ------------------------------------- | ----------------------------------------- |
+| **Navigation Bar**                    | **tested**                                |
+| Dovenity Spa Logo                     | Goes to home page                         |
+| Home link                             | Goes to Home Page                         |
+| Spa Treatments link                   | Goes to Spa Treatments Page               |
+| Spa Facilities link                   | Goes to Spa Facilities Page               |
+| Contact Us link                       | Goes to Contact Us Form Page              |
+| Book Now (button) link                | Goes to Book Now Form Page                |
+| **Footer Elements**                   | **tested**                                |
+| Dovenity Spa Logo                     | Goes to home page                         |
+| Facebook icon                         | Goes to Facebook page                     |
+| Instagram icon                        | Goes to Instagram page                    |
+| X icon                                | Goes to X page (twitter)                  |
+| Contact Us link                       | Goes t0 Contact Us Form page              |
+| **Body Elements**                     | **tested**                                |
+| cards with 4 images on larger screens | images present as they should             |
+| carousel of 4 images on small screen  | images present as they should in carousel |
+
+| Spa Treatments Page        | Results                      |
+| -------------------------- | ---------------------------- |
+| **Navigation Bar**         | **tested**                   |
+| Dovenity Spa Logo          | Goes to home page            |
+| Home link                  | Goes to Home Page            |
+| Spa Treatments link        | Goes to Spa Treatments Page  |
+| Spa Facilities link        | Goes to Spa Facilities Page  |
+| Contact Us link            | Goes to Contact Us Form Page |
+| Book Now (button)          | Goes to Book Now Form Page   |
+| **Footer Elements**        | **tested**                   |
+| Dovenity Spa Logo          | Goes to home page            |
+| Facebook icon              | Goes to Facebook page        |
+| Instagram icon             | Goes to Instagram page       |
+| X icon                     | Goes to X page (twitter)     |
+| Contact Us link            | Goes t0 Contact Us Form page |
+| **Body Elements**          | **tested**                   |
+| Book Now link              |                              |
+| (Facial Peels card)        | Goes to Book Now Form        |
+| Book Now link              |                              |
+| (Facial Steaming card)     | Goes to Book Now Form        |
+| Book Now link              |                              |
+| (Deep Tissue massage card) | Goes to Book Now Form        |
+| Book Now link              |                              |
+| (Mud Facial card)          | Goes to Book Now Form        |
+
+| Spa Facilities Page                   | Results                                          |
+| ------------------------------------- | ------------------------------------------------ |
+| **Navigation Bar**                    | **tested**                                       |
+| Dovenity Spa Logo                     | Goes to home page                                |
+| Home link                             | Goes to Home Page                                |
+| Spa Treatments link                   | Goes to Spa Treatments Page                      |
+| Spa Facilities link                   | Goes to Spa Facilities Page                      |
+| Contact Us link                       | Goes to Contact Us Form Page                     |
+| Book Now (button)                     | Goes to Book Now Form Page                       |
+| **Footer Elements**                   | **tested**                                       |
+| Dovenity Spa Logo                     | Goes to home page                                |
+| Facebook icon                         | Goes to Facebook page                            |
+| Instagram icon                        | Goes to Instagram page                           |
+| X icon                                | Goes to X page (twitter)                         |
+| Contact Us link                       | Goes t0 Contact Us Form page                     |
+| **Body Elements**                     | **tested**                                       |
+| video present in beginning            | video has controls, autoplay, muted- all working |
+| cards with 4 images on larger screens | images present as they should                    |
+| carousel of 4 images on small screen  | images present as they should in carousel        |
+
+| Contact Us Form Page | Results                            |
+| -------------------- | ---------------------------------- |
+| **Navigation Bar**   | **tested**                         |
+| Dovenity Spa Logo    | Goes to home page                  |
+| Home link            | Goes to Home Page                  |
+| Spa Treatments link  | Goes to Spa Treatments Page        |
+| Spa Facilities link  | Goes to Spa Facilities Page        |
+| Contact Us link      | Goes to Contact Us Form Page       |
+| Book Now (button)    | Goes to Book Now Form Page         |
+| **Footer Elements**  | **tested**                         |
+| Dovenity Spa Logo    | Goes to home page                  |
+| Facebook icon        | Goes to Facebook page              |
+| Instagram icon       | Goes to Instagram page             |
+| X icon               | Goes to X page (twitter)           |
+| Contact Us link      | Goes t0 Contact Us Form page       |
+| **Form Elements**    | **tested**                         |
+| First Name Input     | must complete with text            |
+| Last Name Input      | must complete with text            |
+| Email Address Input  | must complete with email address   |
+| Contact Number       | must complete with 11 digit number |
+| textarea input       | optional to leave text comment     |
+| Submit (button)      | goes to Contacting Successful Page |
+
+| Book Now Form Page                                         | Results                            |
+| ---------------------------------------------------------- | ---------------------------------- |
+| **Navigation Bar**                                         | **tested**                         |
+| Dovenity Spa Logo                                          | Goes to home page                  |
+| Home link                                                  | Goes to Home Page                  |
+| Spa Treatments link                                        | Goes to Spa Treatments Page        |
+| Spa Facilities link                                        | Goes to Spa Facilities Page        |
+| Contact Us link                                            | Goes to Contact Us Form Page       |
+| Book Now (button)                                          | Goes to Book Now Form Page         |
+| **Footer Elements**                                        | **tested**                         |
+| Dovenity Spa Logo                                          | Goes to home page                  |
+| Facebook icon                                              | Goes to Facebook page              |
+| Instagram icon                                             | Goes to Instagram page             |
+| X icon                                                     | Goes to X page (twitter)           |
+| Contact Us link                                            | Goes t0 Contact Us Form page       |
+| **Form Elements**                                          | **tested**                         |
+| First Name Input                                           | must complete with text            |
+| Last Name Input                                            | must complete with text            |
+| Email Address Input                                        | must complete with email address   |
+| Contact Number                                             | must complete with 11 digit number |
+| Date and Time input                                        | a dropdown menu available to input |
+| radio input for choice of treatments or facilities or both | options available to choose from   |
+| check box options for treatments                           | options available to choose        |
+| check box options for facilites                            | options available to choose        |
+| Submit (button)                                            | goes to Booking Successful Page    |
+
+| Contacting Successful Page elements | Results                      |
+| ----------------------------------- | ---------------------------- |
+| **Navigation Bar**                  | **tested**                   |
+| Dovenity Spa Logo                   | Goes to home page            |
+| Home link                           | Goes to Home Page            |
+| Spa Treatments link                 | Goes to Spa Treatments Page  |
+| Spa Facilities link                 | Goes to Spa Facilities Page  |
+| Contact Us link                     | Goes to Contact Us Form Page |
+| Book Now (button) link              | Goes to Book Now Form Page   |
+| **Footer Elements**                 | **tested**                   |
+| Dovenity Spa Logo                   | Goes to home page            |
+| Facebook icon                       | Goes to Facebook page        |
+| Instagram icon                      | Goes to Instagram page       |
+| X icon                              | Goes to X page (twitter)     |
+| Contact Us link                     | Goes t0 Contact Us Form page |
+| **Body Elements**                   | **tested**                   |
+| message displayed in centre of body | message present              |
+
+| Booking Successful Page elements    | Results                      |
+| ----------------------------------- | ---------------------------- |
+| **Navigation Bar**                  | **tested**                   |
+| Dovenity Spa Logo                   | Goes to home page            |
+| Home link                           | Goes to Home Page            |
+| Spa Treatments link                 | Goes to Spa Treatments Page  |
+| Spa Facilities link                 | Goes to Spa Facilities Page  |
+| Contact Us link                     | Goes to Contact Us Form Page |
+| Book Now (button) link              | Goes to Book Now Form Page   |
+| **Footer Elements**                 | **tested**                   |
+| Dovenity Spa Logo                   | Goes to home page            |
+| Facebook icon                       | Goes to Facebook page        |
+| Instagram icon                      | Goes to Instagram page       |
+| X icon                              | Goes to X page (twitter)     |
+| Contact Us link                     | Goes t0 Contact Us Form page |
+| **Body Elements**                   | **tested**                   |
+| message displayed in centre of body | message present              |
+
+                   |
 
 9. Web Accessibility was checked using www.accessibilitychecker.org:
    ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
