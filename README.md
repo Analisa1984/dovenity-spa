@@ -174,6 +174,22 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 8. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
 
+| Homepage elements | Results                      |
+| ----------------- | ---------------------------- |
+| Navigation Bar    | tested                       |
+| Dovenity Spa Logo | Goes to home page            |
+| Home              | Goes to Home Page            |
+| Spa Treatments    | Goes to Spa Treatments Page  |
+| Spa Facilities    | Goes to Spa Facilities Page  |
+| Contact Us        | Goes to Contact Us Form Page |
+| Book Now (button) | Goes to Book Now Form Page   |
+| Footer Elements   | Tested                       |
+| Dovenity Spa Logo | Goes to home page            |
+| Facebook icon     | Goes to Facebook page        |
+| Instagram icon    | Goes to Instagram page       |
+| X icon            | Goes to X page (twitter)     |
+| Contact Us link   | Goes t0 Contact Us Form page |
+
 9. Web Accessibility was checked using www.accessibilitychecker.org:
    ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
 
