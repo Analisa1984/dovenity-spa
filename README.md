@@ -15,15 +15,15 @@
 
     A. [Manual Testing](#manual-testing)
 
-- [Table 1: Home Page testing](#table-1-home-page-testing)
-- [Table 2: Spa Treatments Page testing](#table-2-spa-treatments-page-testing)
-- [Table 3: Spa Facilities Page testing](#table-3-spa-facilities-page-testing)
-- [Table 4: Contact Us Page testing](#table-4-contact-us-page-testing)
-- [Table 5: Book Now Page testing](#table-5-book-now-page-testing)
-- [Table 6: Contacting Us Successful Page testing](#table-6-contacting-successful-page-testing)
-- [Table 7: Booking Successful Page testing](#table-7-booking-successful-page-testing)
+    - [Table 1: Home Page testing](#table-1-home-page-testing)
+    - [Table 2: Spa Treatments Page testing](#table-2-spa-treatments-page-testing)
+    - [Table 3: Spa Facilities Page testing](#table-3-spa-facilities-page-testing)
+    - [Table 4: Contact Us Page testing](#table-4-contact-us-page-testing)
+    - [Table 5: Book Now Page testing](#table-5-book-now-page-testing)
+    - [Table 6: Contacting Us Successful Page testing](#table-6-contacting-successful-page-testing)
+    - [Table 7: Booking Successful Page testing](#table-7-booking-successful-page-testing)
 
-  B. [Responsiveness Testing](#responsiveness-testing)
+B. [Responsiveness Testing](#responsiveness-testing)
 
 - [Table 1: Responsiveness of the Home Page](#table-1-responsiveness-of-the-home-page)
 - [Table 2: Responsiveness of the Spa Treatments Page](#table-2-responsiveness-of-the-spa-treatments-page)
@@ -33,11 +33,11 @@
 - [Table 6: Responsiveness of the Contacting Successful Page](#table-6-responsiveness-of-the-contacting-successful-page)
 - [Table 7: Responsiveness of the Booking Successful Page](#table-7-responsiveness-of-the-booking-successful-page)
 
-  C. [Automated Testing](#automated-testing)
+C. [Automated Testing](#automated-testing)
 
-  - [Web Accessibility Checker Results](#web-accessibility-was-checked-using-wwwaccessibilitycheckerorg)
-  - [HTML Validator Checker Results](#html-validation-was-done-using-an-online-html-validator-nu-html-checker)
-  - [CSS Validator Checker Results](#css-validation-was-done-using-an-online-css-validator-the-w3c-css-validation-service)
+- [Web Accessibility Checker Results](#web-accessibility-was-checked-using-wwwaccessibilitycheckerorg)
+- [HTML Validator Checker Results](#html-validation-was-done-using-an-online-html-validator-nu-html-checker)
+- [CSS Validator Checker Results](#css-validation-was-done-using-an-online-css-validator-the-w3c-css-validation-service)
 
 12. [Final Product](#final-product)
 13. [Business Goals and User Stories met](#business-goals-and-user-stories-met)
