@@ -536,9 +536,9 @@ Deployed to GitHub Pages on 17th November 2026.
 7. Unsplash image for Spa Treatmnents page - blurry photo of a steamer by Jens Riesenberg.
 8. Unsplash image for Spa Treatments page - a bed with wooden frame by Flavio Anibal.
 9. Unsplash image for Spa Treatments page - man wearing a mud mask by Rosa Rafael.
-10. Unsplash image for Spa Facilities page - cruise ship deck by TravelPriceWatch.
+10. Unsplash image for Spa Facilities page - Gellert Thermal Bath by Linoleum Creative Collection.
 11. Unsplash image for Spa Facilities page - boy reading book in hot tub by Michael Chiara.
-12. Unsplash image for spa Facilities page - brown and white floral round table by HUUM Sauna.
+12. Unsplash image for Spa Facilities page - sauna room by Birk Enwald.
 13. Unsplash image for Spa Facilities page - a couple of people that are sitting in a sauna by HUUM Sauna.
 14. Bootstrap 5.3.8 version library utlized.
 15. Nu HTML Validator.
