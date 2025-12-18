@@ -12,15 +12,42 @@
 8. [Results from testing](#results-from-testing)
 9. [Fixed](#fixed)
 10. [Testing and Results from final testing](#testing-and-results-from-final-testing)
-11. [Final Product](#final-product)
-12. [Business Goals and User Stories met](#business-goals-and-user-stories-met)
-13. [Deployment](#deployment)
-14. [Design and How to use the website](#design-and-how-to-use-the-website)
-15. [References](#references)
-16. [Issues](#issues)
-17. [Limitations](#limitations)
-18. [Acknowlegements](#acknowlegements)
-19. [Thank You](#thank-you-for-reviewing-this-product)
+
+    A. [Manual Testing](#manual-testing)
+
+- [Table 1: Home Page testing](#table-1-home-page-testing)
+- [Table 2: Spa Treatments Page testing](#table-2-spa-treatments-page-testing)
+- [Table 3: Spa Facilities Page testing](#table-3-spa-facilities-page-testing)
+- [Table 4: Contact Us Page testing](#table-4-contact-us-page-testing)
+- [Table 5: Book Now Page testing](#table-5-book-now-page-testing)
+- [Table 6: Contacting Us Successful Page testing](#table-6-contacting-successful-page-testing)
+- [Table 7: Booking Successful Page testing](#table-7-booking-successful-page-testing)
+
+  B. [Responsiveness Testing](#responsiveness-testing)
+
+- [Table 1: Responsiveness of the Home Page](#table-1-responsiveness-of-the-home-page)
+- [Table 2: Responsiveness of the Spa Treatments Page](#table-2-responsiveness-of-the-spa-treatments-page)
+- [Table 3: Responsiveness of the Spa Facilities Page](#table-3-responsiveness-of-the-spa-facilities-page)
+- [Table 4: Responsiveness of the Contact Us Page](#table-4-responsiveness-of-the-contact-us-page)
+- [Table 5: Responsiveness of the Book Now Page](#table-5-responsiveness-of-the-book-now-page)
+- [Table 6: Responsiveness of the Contacting Successful Page](#table-6-responsiveness-of-the-contacting-successful-page)
+- [Table 7: Responsiveness of the Booking Successful Page](#table-7-responsiveness-of-the-booking-successful-page)
+
+  C. [Automated Testing](#automated-testing)
+
+  - [Web Accessibility Checker Results](#web-accessibility-was-checked-using-wwwaccessibilitycheckerorg)
+  - [HTML Validator Checker Results](#html-validation-was-done-using-an-online-html-validator-nu-html-checker)
+  - [CSS Validator Checker Results](#css-validation-was-done-using-an-online-css-validator-the-w3c-css-validation-service)
+
+12. [Final Product](#final-product)
+13. [Business Goals and User Stories met](#business-goals-and-user-stories-met)
+14. [Deployment](#deployment)
+15. [Design and How to use the website](#design-and-how-to-use-the-website)
+16. [References](#references)
+17. [Issues](#issues)
+18. [Limitations](#limitations)
+19. [Acknowlegements](#acknowlegements)
+20. [Thank You](#thank-you-for-reviewing-this-product)
 
 ## About:
 
@@ -170,9 +197,19 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 
 8. Styles: throughout the webpage, vaious elements would have needed margins and paddings to have better ease in readability. Also adjustments with fonts, contrast colors and weight of fonts were also frequently adjusted to add to user friendliness.
 
+9. Fonts changed in the body of pages to improve readability.
+
+10. Form styling added to make it responsive when going to smaller devices.
+
+11. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
+
 ## Testing and Results from final testing:
 
-8. Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
+## Manual Testing:
+
+Manual testing - The various parts of the website was checked such as the navbar, links, footer links. The various parts were also manually tested on mobile and tablet sizes using inspect and responsiveness checks on the page.
+
+### Table 1: Home Page testing
 
 | Homepage elements                     | Results                                   |
 | ------------------------------------- | ----------------------------------------- |
@@ -192,6 +229,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | **Body Elements**                     | **tested**                                |
 | cards with 4 images on larger screens | images present as they should             |
 | carousel of 4 images on small screen  | images present as they should in carousel |
+
+### Table 2: Spa Treatments Page testing
 
 | Spa Treatments Page        | Results                      |
 | -------------------------- | ---------------------------- |
@@ -218,6 +257,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | Book Now link              |                              |
 | (Mud Facial card)          | Goes to Book Now Form        |
 
+### Table 3: Spa Facilities Page testing
+
 | Spa Facilities Page                   | Results                                          |
 | ------------------------------------- | ------------------------------------------------ |
 | **Navigation Bar**                    | **tested**                                       |
@@ -237,6 +278,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | video present in beginning            | video has controls, autoplay, muted- all working |
 | cards with 4 images on larger screens | images present as they should                    |
 | carousel of 4 images on small screen  | images present as they should in carousel        |
+
+### Table 4: Contact Us Page testing
 
 | Contact Us Form Page | Results                            |
 | -------------------- | ---------------------------------- |
@@ -260,6 +303,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | Contact Number       | must complete with 11 digit number |
 | textarea input       | optional to leave text comment     |
 | Submit (button)      | goes to Contacting Successful Page |
+
+### Table 5: Book Now Page testing
 
 | Book Now Form Page                                         | Results                            |
 | ---------------------------------------------------------- | ---------------------------------- |
@@ -287,6 +332,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | check box options for facilites                            | options available to choose        |
 | Submit (button)                                            | goes to Booking Successful Page    |
 
+### Table 6: Contacting Successful Page testing
+
 | Contacting Successful Page elements | Results                      |
 | ----------------------------------- | ---------------------------- |
 | **Navigation Bar**                  | **tested**                   |
@@ -304,6 +351,8 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | Contact Us link                     | Goes t0 Contact Us Form page |
 | **Body Elements**                   | **tested**                   |
 | message displayed in centre of body | message present              |
+
+### Table 7: Booking Successful Page testing
 
 | Booking Successful Page elements    | Results                      |
 | ----------------------------------- | ---------------------------- |
@@ -323,12 +372,89 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 | **Body Elements**                   | **tested**                   |
 | message displayed in centre of body | message present              |
 
-                   |
+## Responsiveness Testing:
 
-9. Web Accessibility was checked using www.accessibilitychecker.org:
-   ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
+### Table 1. Responsiveness of the Home Page
 
-10. HTML validation was done using an online HTML validator, Nu HTML Checker:
+| Home Page      | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section   | On medium and larger screens, the welcome section is visible followed by 4 cards with white side borders                                                                                                                                                                                                                                                                                              |
+|                | On small devices, the welcome section is visible followed by a carousel display (from 767px and less) of the 4 images                                                                                                                                                                                                                                                                                 |
+| Footer         | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 2. Responsiveness of the Spa Treatments Page
+
+| Spa Treatments Page | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar      | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                     | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section        | On medium and larger screens, the welcome section is visible followed by 4 cards with white side borders. Following the image there is a brief description about the treatment and a Book Now link (styled as button). At 800 px, the visibility shows as 2 cards per row.                                                                                                                            |
+|                     | On small devices, the welcome section is visible followed by a carousel display (from 992px and lower) of the 4 images                                                                                                                                                                                                                                                                                |
+| Footer              | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 3. Responsiveness of the Spa Facilities Page
+
+| Spa Facilities Page | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar      | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                     | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section        | On medium and larger screens, users are shown a video followed by a brief text description of the spa facilities then shown 4 cards with images with white borders and a title below of the image shown.                                                                                                                                                                                              |
+|                     | On small devices, users are shown a video followed by a brief text description of the spa facilities then shown a carousel display (from 992px and lower) of the 4 images                                                                                                                                                                                                                             |
+| Footer              | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 4. Responsiveness of the Contact Us Page
+
+| Contact Us Page | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar  | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                 | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section    | On all sized devices, the form labels and input fields all displayed on separate lines with no overlapping and the submit button remained central to the form at the end.                                                                                                                                                                                                                             |
+| Footer          | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 5. Responsiveness of the Book Now Page
+
+| Book Now Page  | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section   | On larger screens (992px and above) the radio input options are all in a single row, the check box options are 3 in a row and another option in another row, the text input field are all in place with no overlap. The date and time option are in single row format.                                                                                                                                |
+|                | On medium screen devices ( 768px to 991px ), the radio options are in 2 rows ans the check box options are on 2 rows as well.                                                                                                                                                                                                                                                                         |
+|                | On smaller screen (767px and less). the radio input options are in 3 rows with 1 option per row. The check boxed options are also in single row per option.                                                                                                                                                                                                                                           |
+|                | On all Screen sizes the text input fields were always below the labels and no overlap occurred. The date and time label always remained on top with the select option below.                                                                                                                                                                                                                          |
+| Footer         | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 6. Responsiveness of the Contacting Successful Page
+
+| Contacting Successful Page | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar             | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                            | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section               | The message in the center remained centered at all screen sizes and the margins remained intact at all sizes.                                                                                                                                                                                                                                                                                         |
+| Footer                     | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+### Table 7. Responsiveness of the Booking Successful Page
+
+| Booking Successful | Results                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Bar     | All visible and functional on medium an large screens as links, dovenity Spa logo                                                                                                                                                                                                                                                                                                                     |
+|                    | On small devices, the navigation link appears as a burger menu (from 992px and lower) which when clicked, has a dropdown menu with the options.                                                                                                                                                                                                                                                       |
+| Body section       | The message in the center remained centered at all screen sizes and the margins remained intact at all sizes.                                                                                                                                                                                                                                                                                         |
+| Footer             | On all screen sizes the dovenity logo appears with good visibility, to the left. The opening hours is to the center in a table format and the social links are to the right. In screens 620px and less, the logo remains to the left and the opening hours are to the right in a table format and the social links drops below in a new row but still visibile and all links and logo are functional. |
+
+## Automated Testing:
+
+1. Web Accessibility Checker Results:
+
+### Web Accessibility was checked using www.accessibilitychecker.org:
+
+    ![Accessibilty Check results](assets/images/testing-final/spa-final-accessibility-check.png)
+
+2. HTML Validator Checker Results:
+
+### HTML validation was done using an online HTML validator, Nu HTML Checker:
+
     ![Nu HTML Checker results](assets/images/testing-final/html-vaildator-final.png)
 
     - HTML validation showed no errors but there were 2 grouped warnings:
@@ -337,14 +463,11 @@ Althought Dovenity Spa is a fictitious spa, to demonstrate a website, possible u
 
       Secondly, the other error showed due to closing slashes made to void elements such as the link element. Although, this (closing slash)code was added by a formatting tool called prettier code, it was also deemed as generally safe and this was the practice in prior HTML versions of coding.
 
-11. CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
+3. CSS Validator Checker Results:
+
+### CSS validation was done using an online CSS validator, The W3C CSS Validation Service:
+
     ![W3C CSS Validation results](assets/images/testing-final/css-validator-final.png)
-
-12. Fonts changed in the body of pages to improve readability.
-
-13. Form styling added to make it responsive when going to smaller devices.
-
-14. The logo added to the page also links back to the Home page for easy access to the Home page from multiple routes .
 
 ## Final Product:
 
